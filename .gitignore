@@ -1,0 +1,7 @@
+# Build and install directories
+KoDer_ws/build/
+KoDer_ws/install/
+KoDer_ws/log/
+
+# .stfolder
+.stfolder/
