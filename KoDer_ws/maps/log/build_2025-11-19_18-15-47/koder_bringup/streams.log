@@ -1,0 +1,20 @@
+[12.345s] Invoking command in '/home/ubuntu/KoDer_ws/src/koder_bringup': AMENT_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_agent:/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/home/ubuntu/KoDer_ws/install/ld08_driver:/home/ubuntu/KoDer_ws/install/koder_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_agent:/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/home/ubuntu/KoDer_ws/install/ld08_driver:/home/ubuntu/KoDer_ws/install/koder_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_agent/lib:/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/KoDer_ws/build/koder_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/KoDer_ws/install/koder_bringup/lib/python3.12/site-packages:/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/koder_bringup build --build-base /home/ubuntu/KoDer_ws/build/koder_bringup/build install --record /home/ubuntu/KoDer_ws/build/koder_bringup/install.log --single-version-externally-managed install_data
+[15.917s] running egg_info
+[16.209s] writing ../../build/koder_bringup/koder_bringup.egg-info/PKG-INFO
+[16.220s] writing dependency_links to ../../build/koder_bringup/koder_bringup.egg-info/dependency_links.txt
+[16.227s] writing requirements to ../../build/koder_bringup/koder_bringup.egg-info/requires.txt
+[16.235s] writing top-level names to ../../build/koder_bringup/koder_bringup.egg-info/top_level.txt
+[16.834s] reading manifest file '../../build/koder_bringup/koder_bringup.egg-info/SOURCES.txt'
+[16.847s] writing manifest file '../../build/koder_bringup/koder_bringup.egg-info/SOURCES.txt'
+[16.851s] running build
+[16.852s] running build_py
+[16.854s] running install
+[16.933s] running install_lib
+[17.189s] running install_data
+[17.194s] copying config/cartographer.lua -> /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/config
+[17.198s] running install_egg_info
+[17.451s] removing '/home/ubuntu/KoDer_ws/install/koder_bringup/lib/python3.12/site-packages/koder_bringup-0.0.1-py3.12.egg-info' (and everything under it)
+[17.458s] Copying ../../build/koder_bringup/koder_bringup.egg-info to /home/ubuntu/KoDer_ws/install/koder_bringup/lib/python3.12/site-packages/koder_bringup-0.0.1-py3.12.egg-info
+[17.475s] running install_scripts
+[19.266s] writing list of installed files to '/home/ubuntu/KoDer_ws/build/koder_bringup/install.log'
+[19.548s] Invoked command in '/home/ubuntu/KoDer_ws/src/koder_bringup' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_agent:/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/home/ubuntu/KoDer_ws/install/ld08_driver:/home/ubuntu/KoDer_ws/install/koder_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_agent:/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/home/ubuntu/KoDer_ws/install/ld08_driver:/home/ubuntu/KoDer_ws/install/koder_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_agent/lib:/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/KoDer_ws/build/koder_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/KoDer_ws/install/koder_bringup/lib/python3.12/site-packages:/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/koder_bringup build --build-base /home/ubuntu/KoDer_ws/build/koder_bringup/build install --record /home/ubuntu/KoDer_ws/build/koder_bringup/install.log --single-version-externally-managed install_data

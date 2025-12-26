@@ -1,0 +1,175 @@
+[0.310s] Invoking command in '/home/ubuntu/KoDer_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/drive_base_msgs -- -j4 -l4
+[1.745s] [  1%] Built target drive_base_msgs__rosidl_generator_type_description
+[1.927s] [  1%] Built target ament_cmake_python_symlink_drive_base_msgs
+[2.647s] [ 23%] Built target drive_base_msgs__rosidl_generator_c
+[2.673s] [ 25%] Built target drive_base_msgs__cpp
+[3.994s] [ 34%] Built target drive_base_msgs__rosidl_typesupport_introspection_c
+[4.166s] [ 43%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c
+[4.686s] [ 53%] Built target drive_base_msgs__rosidl_typesupport_c
+[5.284s] [ 62%] Built target drive_base_msgs__rosidl_typesupport_introspection_cpp
+[5.477s] [ 71%] Built target drive_base_msgs__rosidl_typesupport_cpp
+[6.146s] [ 81%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_cpp
+[7.171s] [ 81%] Built target drive_base_msgs
+[7.859s] running egg_info
+[7.877s] [ 82%] Built target drive_base_msgs__py
+[8.215s] writing drive_base_msgs.egg-info/PKG-INFO
+[8.217s] writing dependency_links to drive_base_msgs.egg-info/dependency_links.txt
+[8.227s] writing top-level names to drive_base_msgs.egg-info/top_level.txt
+[8.616s] [ 90%] Built target drive_base_msgs__rosidl_generator_py
+[9.337s] [ 93%] Built target drive_base_msgs_s__rosidl_typesupport_c
+[9.488s] [ 96%] Built target drive_base_msgs_s__rosidl_typesupport_fastrtps_c
+[9.490s] reading manifest file 'drive_base_msgs.egg-info/SOURCES.txt'
+[9.496s] [100%] Built target drive_base_msgs_s__rosidl_typesupport_introspection_c
+[9.502s] writing manifest file 'drive_base_msgs.egg-info/SOURCES.txt'
+[9.917s] [100%] Built target ament_cmake_python_build_drive_base_msgs_egg
+[10.174s] Invoked command in '/home/ubuntu/KoDer_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/drive_base_msgs -- -j4 -l4
+[10.192s] Invoking command in '/home/ubuntu/KoDer_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/drive_base_msgs
+[10.403s] -- Install configuration: ""
+[10.412s] -- Execute custom install script
+[10.415s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/ament_index/resource_index/rosidl_interfaces/drive_base_msgs
+[10.421s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.json
+[10.426s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.json
+[10.432s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.json
+[10.434s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.json
+[10.442s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/base_info.h
+[10.451s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_header.h
+[10.453s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_status.h
+[10.454s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__functions.h
+[10.459s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__struct.h
+[10.464s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.h
+[10.465s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__functions.h
+[10.467s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__struct.h
+[10.469s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.h
+[10.471s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__functions.h
+[10.478s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__struct.h
+[10.481s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.h
+[10.482s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__functions.h
+[10.484s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__struct.h
+[10.490s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.h
+[10.493s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.494s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/trv_command.h
+[10.500s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.sh
+[10.502s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.dsv
+[10.513s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h
+[10.516s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h
+[10.520s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h
+[10.523s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h
+[10.526s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.537s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/base_info.hpp
+[10.540s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_header.hpp
+[10.546s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_status.hpp
+[10.549s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__builder.hpp
+[10.550s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__struct.hpp
+[10.552s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__traits.hpp
+[10.556s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.hpp
+[10.559s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__builder.hpp
+[10.563s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__struct.hpp
+[10.565s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__traits.hpp
+[10.570s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.hpp
+[10.576s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__builder.hpp
+[10.577s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__struct.hpp
+[10.581s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__traits.hpp
+[10.587s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.hpp
+[10.590s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__builder.hpp
+[10.592s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__struct.hpp
+[10.594s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__traits.hpp
+[10.598s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.hpp
+[10.603s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.606s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/trv_command.hpp
+[10.618s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp
+[10.623s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp
+[10.627s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp
+[10.630s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp
+[10.632s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.641s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_c.h
+[10.644s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_c.h
+[10.648s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_c.h
+[10.650s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_c.h
+[10.655s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.664s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_cpp.hpp
+[10.668s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_cpp.hpp
+[10.672s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_cpp.hpp
+[10.675s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_cpp.hpp
+[10.678s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.sh
+[10.681s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.dsv
+[10.687s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[10.690s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[10.694s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[10.697s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[10.714s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/__init__.py
+[10.717s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_c.c
+[10.720s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.723s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[10.726s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.so
+[10.728s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.so
+[10.731s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.so
+[10.734s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/__init__.py
+[10.737s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_base_info.py
+[10.741s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_base_info_s.c
+[10.744s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_header.py
+[10.747s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_header_s.c
+[10.750s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_status.py
+[10.752s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_status_s.c
+[10.755s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_trv_command.py
+[10.758s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_trv_command_s.c
+[10.764s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.so
+[10.772s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.so
+[10.775s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.so
+[10.778s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.idl
+[10.781s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.idl
+[10.785s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.idl
+[10.789s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.idl
+[10.792s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.msg
+[10.795s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.msg
+[10.799s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.msg
+[10.802s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.msg
+[10.806s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/ament_index/resource_index/package_run_dependencies/drive_base_msgs
+[10.811s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/ament_index/resource_index/parent_prefix_path/drive_base_msgs
+[10.814s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.sh
+[10.817s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.dsv
+[10.821s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.sh
+[10.824s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.dsv
+[10.827s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.bash
+[10.831s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.sh
+[10.833s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.zsh
+[10.838s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.dsv
+[10.840s] -- Symlinking: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv
+[11.031s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/ament_index/resource_index/packages/drive_base_msgs
+[11.035s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake-extras.cmake
+[11.038s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.046s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.048s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[11.051s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[11.054s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.057s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.063s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig.cmake
+[11.066s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig-version.cmake
+[11.069s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/package.xml
+[11.072s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_c.so
+[11.083s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_c.so
+[11.086s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_cpp.so
+[11.090s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_c.so
+[11.099s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_c.so
+[11.106s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_cpp.so
+[11.112s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_cpp.so
+[11.648s] Listing '/home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs'...
+[11.652s] Listing '/home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg'...
+[11.719s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_py.so
+[11.725s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cExport.cmake
+[11.729s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cExport-noconfig.cmake
+[11.731s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[11.733s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.737s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cppExport.cmake
+[11.738s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.741s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.742s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport.cmake
+[11.747s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.749s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport.cmake
+[11.752s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[11.753s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[11.756s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.759s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport.cmake
+[11.761s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[11.763s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_pyExport.cmake
+[11.765s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_pyExport-noconfig.cmake
+[11.789s] Invoked command in '/home/ubuntu/KoDer_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/drive_base_msgs

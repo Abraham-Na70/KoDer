@@ -1,0 +1,26 @@
+[0.378s] Invoking command in '/home/ubuntu/KoDer_ws/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/ld08_driver -- -j4 -l4
+[5.631s] [100%] Built target ld08_driver
+[7.289s] Invoked command in '/home/ubuntu/KoDer_ws/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/ld08_driver -- -j4 -l4
+[7.347s] Invoking command in '/home/ubuntu/KoDer_ws/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/ld08_driver
+[7.760s] -- Install configuration: ""
+[7.777s] -- Execute custom install script
+[7.778s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/launch/ld08.launch.py
+[7.797s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/lib/ld08_driver/ld08_driver
+[7.830s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ament_index/resource_index/package_run_dependencies/ld08_driver
+[7.845s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ament_index/resource_index/parent_prefix_path/ld08_driver
+[7.855s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.sh
+[7.869s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.dsv
+[7.881s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/environment/path.sh
+[7.901s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/environment/path.dsv
+[7.908s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/local_setup.bash
+[7.938s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/local_setup.sh
+[7.954s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/local_setup.zsh
+[7.968s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/local_setup.dsv
+[7.982s] -- Symlinking: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/package.dsv
+[8.554s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ament_index/resource_index/packages/ld08_driver
+[8.556s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.566s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.580s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig.cmake
+[8.590s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig-version.cmake
+[8.604s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/package.xml
+[8.646s] Invoked command in '/home/ubuntu/KoDer_ws/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/ld08_driver

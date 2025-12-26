@@ -1,0 +1,12 @@
+# Hashes of file build rules.
+8a0389b91dc3fad5bff8b97285f2a92d CMakeFiles/spdlog-complete
+b7c597913ed7f3d16886a43669dd3400 spdlog/src/spdlog-stamp/spdlog-build
+ed188561c52273b303a927fdf43b39a2 spdlog/src/spdlog-stamp/spdlog-configure
+56224eb5023ab37b4854c33e3d2425eb spdlog/src/spdlog-stamp/spdlog-download
+94e68663164420fbcb3e6ba0f59a271d spdlog/src/spdlog-stamp/spdlog-install
+0ca6b287c79f560f3b88d6042eec79d0 spdlog/src/spdlog-stamp/spdlog-mkdir
+18314b6efa1de5cead00ac254f54ee3b spdlog/src/spdlog-stamp/spdlog-patch
+b224d08efea22b46a06c04f7860d2675 uagent-prefix/src/uagent-stamp/uagent-download
+e6657854601b1bf8fd8e420831e6ce31 uagent-prefix/src/uagent-stamp/uagent-mkdir
+2cc7146723216654ad4d2be6f9ce489f uagent-prefix/src/uagent-stamp/uagent-patch
+ce48841826fbd8192cf89a5a7f22f2cd uagent-prefix/src/uagent-stamp/uagent-update

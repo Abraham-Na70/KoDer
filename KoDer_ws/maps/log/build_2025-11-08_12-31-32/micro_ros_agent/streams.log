@@ -1,0 +1,25 @@
+[0.231s] Invoking command in '/home/ubuntu/KoDer_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/micro_ros_agent -- -j4 -l4
+[1.062s] [100%] Built target micro_ros_agent
+[1.196s] Invoked command in '/home/ubuntu/KoDer_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/micro_ros_agent -- -j4 -l4
+[1.213s] Invoking command in '/home/ubuntu/KoDer_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/micro_ros_agent
+[1.320s] -- Install configuration: ""
+[1.328s] -- Execute custom install script
+[1.332s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[1.336s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[1.339s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[1.342s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[1.346s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[1.349s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[1.351s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[1.355s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[1.362s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[1.363s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[1.367s] -- Symlinking: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[1.494s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[1.498s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.502s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[1.504s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[1.508s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[1.516s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[1.522s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[1.541s] Invoked command in '/home/ubuntu/KoDer_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/micro_ros_agent

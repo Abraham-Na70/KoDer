@@ -1,0 +1,56 @@
+[0.086s] Invoking command in '/home/ubuntu/KoDer_ws/build/koder_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/KoDer_ws/src/koder_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/KoDer_ws/install/koder_description
+[1.292s] -- The C compiler identification is GNU 13.3.0
+[2.373s] -- The CXX compiler identification is GNU 13.3.0
+[2.662s] -- Detecting C compiler ABI info
+[5.321s] -- Detecting C compiler ABI info - done
+[5.508s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.516s] -- Detecting C compile features
+[5.525s] -- Detecting C compile features - done
+[5.735s] -- Detecting CXX compiler ABI info
+[7.666s] -- Detecting CXX compiler ABI info - done
+[7.808s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.809s] -- Detecting CXX compile features
+[7.814s] -- Detecting CXX compile features - done
+[7.893s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[10.462s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[11.465s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[12.480s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[13.389s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[13.678s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[14.012s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.248s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.168s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[16.256s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[17.795s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[18.089s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[18.414s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[24.534s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[28.575s] -- Added test 'copyright' to check source files copyright and LICENSE
+[28.664s] -- Added test 'lint_cmake' to check CMake code style
+[28.756s] -- Added test 'xmllint' to check XML markup files
+[28.840s] -- Configuring done (28.7s)
+[29.452s] -- Generating done (0.2s)
+[29.618s] -- Build files have been written to: /home/ubuntu/KoDer_ws/build/koder_description
+[29.892s] Invoked command in '/home/ubuntu/KoDer_ws/build/koder_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/KoDer_ws/src/koder_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/KoDer_ws/install/koder_description
+[29.910s] Invoking command in '/home/ubuntu/KoDer_ws/build/koder_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/koder_description -- -j4 -l4
+[31.248s] Invoked command in '/home/ubuntu/KoDer_ws/build/koder_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/koder_description -- -j4 -l4
+[31.466s] Invoking command in '/home/ubuntu/KoDer_ws/build/koder_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/koder_description
+[31.793s] -- Install configuration: ""
+[31.801s] -- Execute custom install script
+[31.818s] -- Symlinking: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/urdf/koder.urdf
+[32.060s] -- Symlinking: /home/ubuntu/KoDer_ws/install/koder_description/share/ament_index/resource_index/package_run_dependencies/koder_description
+[32.443s] -- Symlinking: /home/ubuntu/KoDer_ws/install/koder_description/share/ament_index/resource_index/parent_prefix_path/koder_description
+[32.774s] -- Symlinking: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/environment/ament_prefix_path.sh
+[32.921s] -- Symlinking: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/environment/ament_prefix_path.dsv
+[33.103s] -- Symlinking: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/environment/path.sh
+[33.342s] -- Symlinking: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/environment/path.dsv
+[33.689s] -- Symlinking: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/local_setup.bash
+[34.074s] -- Symlinking: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/local_setup.sh
+[34.288s] -- Symlinking: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/local_setup.zsh
+[34.589s] -- Symlinking: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/local_setup.dsv
+[34.678s] -- Symlinking: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/package.dsv
+[34.798s] -- Symlinking: /home/ubuntu/KoDer_ws/install/koder_description/share/ament_index/resource_index/packages/koder_description
+[35.324s] -- Symlinking: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/cmake/koder_descriptionConfig.cmake
+[35.683s] -- Symlinking: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/cmake/koder_descriptionConfig-version.cmake
+[35.912s] -- Symlinking: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/package.xml
+[36.255s] Invoked command in '/home/ubuntu/KoDer_ws/build/koder_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/koder_description

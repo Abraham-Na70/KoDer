@@ -1,0 +1,22 @@
+[0.128s] Invoking command in '/home/ubuntu/KoDer_ws/build/koder_description': /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/koder_description -- -j4 -l4
+[1.281s] Invoked command in '/home/ubuntu/KoDer_ws/build/koder_description' returned '0': /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/koder_description -- -j4 -l4
+[1.644s] Invoking command in '/home/ubuntu/KoDer_ws/build/koder_description': /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/koder_description
+[1.916s] -- Install configuration: ""
+[1.932s] -- Execute custom install script
+[1.970s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/urdf/koder.urdf
+[1.986s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/ament_index/resource_index/package_run_dependencies/koder_description
+[2.006s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/ament_index/resource_index/parent_prefix_path/koder_description
+[2.024s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/environment/ament_prefix_path.sh
+[2.025s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/environment/ament_prefix_path.dsv
+[2.047s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/environment/path.sh
+[2.053s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/environment/path.dsv
+[2.055s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/local_setup.bash
+[2.068s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/local_setup.sh
+[2.081s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/local_setup.zsh
+[2.091s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/local_setup.dsv
+[2.122s] -- Symlinking: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/package.dsv
+[2.208s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/ament_index/resource_index/packages/koder_description
+[2.241s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/cmake/koder_descriptionConfig.cmake
+[2.259s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/cmake/koder_descriptionConfig-version.cmake
+[2.270s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/package.xml
+[2.370s] Invoked command in '/home/ubuntu/KoDer_ws/build/koder_description' returned '0': /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/koder_description

@@ -1,0 +1,13 @@
+# Target labels
+ spdlog
+# Source files and their labels
+/home/ubuntu/KoDer_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/spdlog
+/home/ubuntu/KoDer_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/spdlog.rule
+/home/ubuntu/KoDer_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/spdlog-complete.rule
+/home/ubuntu/KoDer_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-build.rule
+/home/ubuntu/KoDer_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-configure.rule
+/home/ubuntu/KoDer_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-download.rule
+/home/ubuntu/KoDer_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-install.rule
+/home/ubuntu/KoDer_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-mkdir.rule
+/home/ubuntu/KoDer_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-patch.rule
+/home/ubuntu/KoDer_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-update.rule

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: koder-bringup
+Version: 0.0.1
+Summary: Bringup package for the Koder robot (Pi + ESP32 architecture).
+Maintainer: Abraham-Na70
+Maintainer-email: your_email@domain.com
+License: Apache-2.0

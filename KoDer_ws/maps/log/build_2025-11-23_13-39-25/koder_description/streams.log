@@ -1,0 +1,22 @@
+[0.686s] Invoking command in '/home/ubuntu/KoDer_ws/build/koder_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/koder_description -- -j4 -l4
+[5.763s] Invoked command in '/home/ubuntu/KoDer_ws/build/koder_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/koder_description -- -j4 -l4
+[6.350s] Invoking command in '/home/ubuntu/KoDer_ws/build/koder_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/koder_description
+[6.846s] -- Install configuration: ""
+[6.876s] -- Execute custom install script
+[6.903s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/urdf/koder.urdf
+[6.930s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/ament_index/resource_index/package_run_dependencies/koder_description
+[6.957s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/ament_index/resource_index/parent_prefix_path/koder_description
+[6.973s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/environment/ament_prefix_path.sh
+[6.992s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/environment/ament_prefix_path.dsv
+[6.994s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/environment/path.sh
+[7.014s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/environment/path.dsv
+[7.051s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/local_setup.bash
+[7.052s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/local_setup.sh
+[7.076s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/local_setup.zsh
+[7.095s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/local_setup.dsv
+[7.096s] -- Symlinking: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/package.dsv
+[7.320s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/ament_index/resource_index/packages/koder_description
+[7.339s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/cmake/koder_descriptionConfig.cmake
+[7.344s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/cmake/koder_descriptionConfig-version.cmake
+[7.352s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/package.xml
+[7.396s] Invoked command in '/home/ubuntu/KoDer_ws/build/koder_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/koder_description

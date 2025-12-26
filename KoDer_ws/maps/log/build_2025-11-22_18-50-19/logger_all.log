@@ -1,0 +1,664 @@
+[1.563s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.563s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff7e7a1f10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7e702840>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7e702840>>, mixin_verb=('build',))
+[2.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.006s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.006s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.007s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/KoDer_ws'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ignore', 'ignore_ament_install']
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore'
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore_ament_install'
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_pkg']
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_pkg'
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_meta']
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_meta'
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ros']
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ros'
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['cmake', 'python']
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'cmake'
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python'
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['python_setup_py']
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python_setup_py'
+[2.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/koder_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/koder_bringup) by extension 'ignore'
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/koder_bringup) by extension 'ignore_ament_install'
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/koder_bringup) by extensions ['colcon_pkg']
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/koder_bringup) by extension 'colcon_pkg'
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/koder_bringup) by extensions ['colcon_meta']
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/koder_bringup) by extension 'colcon_meta'
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/koder_bringup) by extensions ['ros']
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/koder_bringup) by extension 'ros'
+[2.330s] DEBUG:colcon.colcon_core.package_identification:Package 'src/koder_bringup' with type 'ros.ament_python' and name 'koder_bringup'
+[2.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/koder_description) by extensions ['ignore', 'ignore_ament_install']
+[2.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/koder_description) by extension 'ignore'
+[2.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/koder_description) by extension 'ignore_ament_install'
+[2.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/koder_description) by extensions ['colcon_pkg']
+[2.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/koder_description) by extension 'colcon_pkg'
+[2.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/koder_description) by extensions ['colcon_meta']
+[2.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/koder_description) by extension 'colcon_meta'
+[2.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/koder_description) by extensions ['ros']
+[2.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/koder_description) by extension 'ros'
+[2.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/koder_description' with type 'ros.ament_cmake' and name 'koder_description'
+[2.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extension 'ignore'
+[2.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extension 'ignore_ament_install'
+[2.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extensions ['colcon_pkg']
+[2.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extension 'colcon_pkg'
+[2.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extensions ['colcon_meta']
+[2.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extension 'colcon_meta'
+[2.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extensions ['ros']
+[2.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extension 'ros'
+[2.345s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ld08_driver' with type 'ros.ament_cmake' and name 'ld08_driver'
+[2.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[2.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[2.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[2.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[2.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[2.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[2.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[2.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[2.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[2.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[2.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[2.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['ignore', 'ignore_ament_install']
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ignore'
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ignore_ament_install'
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['colcon_pkg']
+[2.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'colcon_pkg'
+[2.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['colcon_meta']
+[2.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'colcon_meta'
+[2.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['ros']
+[2.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ros'
+[2.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['cmake', 'python']
+[2.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'cmake'
+[2.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'python'
+[2.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['python_setup_py']
+[2.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'python_setup_py'
+[2.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore'
+[2.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore_ament_install'
+[2.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_pkg']
+[2.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_pkg'
+[2.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_meta']
+[2.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_meta'
+[2.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['ros']
+[2.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ros'
+[2.375s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/drive_base/drive_base_msgs' with type 'ros.ament_cmake' and name 'drive_base_msgs'
+[2.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[2.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[2.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[2.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[2.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[2.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[2.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[2.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[2.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[2.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[2.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[2.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[2.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[2.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[2.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[2.388s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[2.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[2.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[2.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[2.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[2.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[2.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[2.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[2.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[2.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[2.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[2.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[2.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[2.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[2.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[2.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[2.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[2.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[2.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[2.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[2.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[2.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ros'
+[2.410s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[2.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.572s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 313 installed packages in /opt/ros/jazzy
+[2.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.768s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_args' from command line to 'None'
+[2.768s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_target' from command line to 'None'
+[2.768s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.768s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.769s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.769s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.769s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.769s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.769s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.769s] DEBUG:colcon.colcon_core.verb:Building package 'drive_base_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/KoDer_ws/build/drive_base_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/KoDer_ws/install/drive_base_msgs', 'merge_install': False, 'path': '/home/ubuntu/KoDer_ws/src/uros/drive_base/drive_base_msgs', 'symlink_install': True, 'test_result_base': None}
+[2.770s] Level 5:colcon.colcon_core.verb:set package 'koder_description' build argument 'cmake_args' from command line to 'None'
+[2.770s] Level 5:colcon.colcon_core.verb:set package 'koder_description' build argument 'cmake_target' from command line to 'None'
+[2.771s] Level 5:colcon.colcon_core.verb:set package 'koder_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.771s] Level 5:colcon.colcon_core.verb:set package 'koder_description' build argument 'cmake_clean_cache' from command line to 'False'
+[2.771s] Level 5:colcon.colcon_core.verb:set package 'koder_description' build argument 'cmake_clean_first' from command line to 'False'
+[2.771s] Level 5:colcon.colcon_core.verb:set package 'koder_description' build argument 'cmake_force_configure' from command line to 'False'
+[2.771s] Level 5:colcon.colcon_core.verb:set package 'koder_description' build argument 'ament_cmake_args' from command line to 'None'
+[2.771s] Level 5:colcon.colcon_core.verb:set package 'koder_description' build argument 'catkin_cmake_args' from command line to 'None'
+[2.771s] Level 5:colcon.colcon_core.verb:set package 'koder_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.771s] DEBUG:colcon.colcon_core.verb:Building package 'koder_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/KoDer_ws/build/koder_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/KoDer_ws/install/koder_description', 'merge_install': False, 'path': '/home/ubuntu/KoDer_ws/src/koder_description', 'symlink_install': True, 'test_result_base': None}
+[2.772s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_args' from command line to 'None'
+[2.772s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_target' from command line to 'None'
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_clean_first' from command line to 'False'
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_force_configure' from command line to 'False'
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'ament_cmake_args' from command line to 'None'
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.773s] DEBUG:colcon.colcon_core.verb:Building package 'ld08_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/KoDer_ws/build/ld08_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/KoDer_ws/install/ld08_driver', 'merge_install': False, 'path': '/home/ubuntu/KoDer_ws/src/ld08_driver', 'symlink_install': True, 'test_result_base': None}
+[2.774s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[2.775s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[2.775s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.775s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.775s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.775s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.775s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.775s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.775s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.775s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/KoDer_ws/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/KoDer_ws/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/ubuntu/KoDer_ws/src/uros/micro_ros_msgs', 'symlink_install': True, 'test_result_base': None}
+[2.776s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[2.777s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[2.777s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.777s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.777s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[2.777s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[2.777s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[2.777s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.777s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.777s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/KoDer_ws/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/KoDer_ws/install/micro_ros_setup', 'merge_install': False, 'path': '/home/ubuntu/KoDer_ws/src/micro_ros_setup', 'symlink_install': True, 'test_result_base': None}
+[2.778s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[2.779s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[2.779s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.779s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[2.779s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[2.779s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[2.779s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[2.779s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[2.779s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.779s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/KoDer_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/KoDer_ws/install/micro_ros_agent', 'merge_install': False, 'path': '/home/ubuntu/KoDer_ws/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': True, 'test_result_base': None}
+[2.780s] Level 5:colcon.colcon_core.verb:set package 'koder_bringup' build argument 'cmake_args' from command line to 'None'
+[2.780s] Level 5:colcon.colcon_core.verb:set package 'koder_bringup' build argument 'cmake_target' from command line to 'None'
+[2.781s] Level 5:colcon.colcon_core.verb:set package 'koder_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.781s] Level 5:colcon.colcon_core.verb:set package 'koder_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.781s] Level 5:colcon.colcon_core.verb:set package 'koder_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.781s] Level 5:colcon.colcon_core.verb:set package 'koder_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.781s] Level 5:colcon.colcon_core.verb:set package 'koder_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.781s] Level 5:colcon.colcon_core.verb:set package 'koder_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.781s] Level 5:colcon.colcon_core.verb:set package 'koder_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.781s] DEBUG:colcon.colcon_core.verb:Building package 'koder_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/KoDer_ws/build/koder_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/KoDer_ws/install/koder_bringup', 'merge_install': False, 'path': '/home/ubuntu/KoDer_ws/src/koder_bringup', 'symlink_install': True, 'test_result_base': None}
+[2.782s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.785s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.786s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/KoDer_ws/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[2.786s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/KoDer_ws/src/uros/micro_ros_msgs'
+[2.811s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.812s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.813s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.835s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/KoDer_ws/src/koder_description' with build type 'ament_cmake'
+[2.836s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/KoDer_ws/src/koder_description'
+[2.837s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.837s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.882s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/KoDer_ws/src/ld08_driver' with build type 'ament_cmake'
+[2.883s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/KoDer_ws/src/ld08_driver'
+[2.886s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.887s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.937s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/KoDer_ws/src/uros/drive_base/drive_base_msgs' with build type 'ament_cmake'
+[2.938s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/KoDer_ws/src/uros/drive_base/drive_base_msgs'
+[2.941s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.942s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/KoDer_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/micro_ros_msgs -- -j4 -l4
+[3.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/KoDer_ws/build/koder_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/koder_description -- -j4 -l4
+[3.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/KoDer_ws/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/ld08_driver -- -j4 -l4
+[3.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/KoDer_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/drive_base_msgs -- -j4 -l4
+[4.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/KoDer_ws/build/koder_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/koder_description -- -j4 -l4
+[4.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/KoDer_ws/build/koder_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/koder_description
+[5.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(koder_description)
+[5.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/KoDer_ws/build/koder_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/koder_description
+[5.648s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/koder_description' for CMake module files
+[5.691s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/koder_description' for CMake config files
+[5.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('koder_description', 'cmake_prefix_path')
+[5.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/hook/cmake_prefix_path.ps1'
+[5.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/hook/cmake_prefix_path.dsv'
+[5.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/hook/cmake_prefix_path.sh'
+[5.812s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/koder_description/bin'
+[5.813s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/koder_description/lib/pkgconfig/koder_description.pc'
+[5.819s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/koder_description/lib/python3.12/site-packages'
+[5.830s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/koder_description/bin'
+[5.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/package.ps1'
+[5.856s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/package.dsv'
+[5.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/package.sh'
+[5.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/package.bash'
+[5.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/package.zsh'
+[5.942s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/KoDer_ws/install/koder_description/share/colcon-core/packages/koder_description)
+[5.962s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(koder_description)
+[5.964s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/koder_description' for CMake module files
+[6.006s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/koder_description' for CMake config files
+[6.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('koder_description', 'cmake_prefix_path')
+[6.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/hook/cmake_prefix_path.ps1'
+[6.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/hook/cmake_prefix_path.dsv'
+[6.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/hook/cmake_prefix_path.sh'
+[6.081s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/koder_description/bin'
+[6.091s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/koder_description/lib/pkgconfig/koder_description.pc'
+[6.093s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/koder_description/lib/python3.12/site-packages'
+[6.126s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/koder_description/bin'
+[6.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/package.ps1'
+[6.168s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/package.dsv'
+[6.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/package.sh'
+[6.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/package.bash'
+[6.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/package.zsh'
+[6.272s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/KoDer_ws/install/koder_description/share/colcon-core/packages/koder_description)
+[6.288s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/KoDer_ws/src/micro_ros_setup' with build type 'ament_cmake'
+[6.310s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/KoDer_ws/src/micro_ros_setup'
+[6.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.314s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/KoDer_ws/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/ld08_driver -- -j4 -l4
+[6.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/KoDer_ws/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/ld08_driver
+[6.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/KoDer_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/micro_ros_setup -- -j4 -l4
+[7.924s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ld08_driver)
+[7.929s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/ld08_driver' for CMake module files
+[7.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/KoDer_ws/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/ld08_driver
+[7.967s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/ld08_driver' for CMake config files
+[7.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('ld08_driver', 'cmake_prefix_path')
+[7.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.ps1'
+[7.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.dsv'
+[8.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.sh'
+[8.021s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/ld08_driver/lib'
+[8.023s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/ld08_driver/bin'
+[8.027s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/ld08_driver/lib/pkgconfig/ld08_driver.pc'
+[8.034s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/ld08_driver/lib/python3.12/site-packages'
+[8.039s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/ld08_driver/bin'
+[8.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/package.ps1'
+[8.048s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/package.dsv'
+[8.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/package.sh'
+[8.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/package.bash'
+[8.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/package.zsh'
+[8.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/KoDer_ws/install/ld08_driver/share/colcon-core/packages/ld08_driver)
+[8.113s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ld08_driver)
+[8.118s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/ld08_driver' for CMake module files
+[8.141s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/ld08_driver' for CMake config files
+[8.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('ld08_driver', 'cmake_prefix_path')
+[8.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.ps1'
+[8.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.dsv'
+[8.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.sh'
+[8.178s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/ld08_driver/lib'
+[8.183s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/ld08_driver/bin'
+[8.185s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/ld08_driver/lib/pkgconfig/ld08_driver.pc'
+[8.191s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/ld08_driver/lib/python3.12/site-packages'
+[8.198s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/ld08_driver/bin'
+[8.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/package.ps1'
+[8.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/package.dsv'
+[8.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/package.sh'
+[8.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/package.bash'
+[8.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/package.zsh'
+[8.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/KoDer_ws/install/ld08_driver/share/colcon-core/packages/ld08_driver)
+[8.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/KoDer_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/micro_ros_setup -- -j4 -l4
+[8.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/KoDer_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/micro_ros_setup
+[9.401s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[9.402s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_setup' for CMake module files
+[9.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/KoDer_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/micro_ros_setup
+[9.457s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_setup' for CMake config files
+[9.517s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[9.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[9.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[9.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[9.541s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_setup/lib'
+[9.543s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_setup/bin'
+[9.544s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[9.547s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/python3.12/site-packages'
+[9.552s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_setup/bin'
+[9.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[9.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[9.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[9.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[9.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[9.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/KoDer_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[9.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[9.591s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_setup' for CMake module files
+[9.615s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_setup' for CMake config files
+[9.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[9.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[9.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[9.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[9.674s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_setup/lib'
+[9.678s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_setup/bin'
+[9.679s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[9.685s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/python3.12/site-packages'
+[9.695s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_setup/bin'
+[9.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[9.710s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[9.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[9.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[9.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[9.734s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/KoDer_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[12.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/KoDer_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/drive_base_msgs -- -j4 -l4
+[12.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/KoDer_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/drive_base_msgs
+[12.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/KoDer_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/micro_ros_msgs -- -j4 -l4
+[12.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/KoDer_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/micro_ros_msgs
+[13.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_base_msgs)
+[13.592s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/drive_base_msgs' for CMake module files
+[13.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/KoDer_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/drive_base_msgs
+[13.610s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/drive_base_msgs' for CMake config files
+[13.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'cmake_prefix_path')
+[13.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.ps1'
+[13.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.dsv'
+[13.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.sh'
+[13.640s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/drive_base_msgs/lib'
+[13.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'ld_library_path_lib')
+[13.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.ps1'
+[13.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.dsv'
+[13.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.sh'
+[13.659s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/drive_base_msgs/bin'
+[13.660s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/pkgconfig/drive_base_msgs.pc'
+[13.662s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages'
+[13.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'pythonpath')
+[13.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.ps1'
+[13.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.dsv'
+[13.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.sh'
+[13.682s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/drive_base_msgs/bin'
+[13.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/package.ps1'
+[13.691s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv'
+[13.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/package.sh'
+[13.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/package.bash'
+[13.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/package.zsh'
+[13.712s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/colcon-core/packages/drive_base_msgs)
+[13.721s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_base_msgs)
+[13.723s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/drive_base_msgs' for CMake module files
+[13.737s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/drive_base_msgs' for CMake config files
+[13.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'cmake_prefix_path')
+[13.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.ps1'
+[13.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.dsv'
+[13.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.sh'
+[13.766s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/drive_base_msgs/lib'
+[13.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'ld_library_path_lib')
+[13.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.ps1'
+[13.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.dsv'
+[13.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.sh'
+[13.784s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/drive_base_msgs/bin'
+[13.785s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/pkgconfig/drive_base_msgs.pc'
+[13.788s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages'
+[13.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'pythonpath')
+[13.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.ps1'
+[13.795s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.dsv'
+[13.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.sh'
+[13.811s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/drive_base_msgs/bin'
+[13.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/package.ps1'
+[13.821s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv'
+[13.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/package.sh'
+[13.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/package.bash'
+[13.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/package.zsh'
+[13.843s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/KoDer_ws/install/drive_base_msgs/share/colcon-core/packages/drive_base_msgs)
+[14.039s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[14.040s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_msgs' for CMake module files
+[14.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/KoDer_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/micro_ros_msgs
+[14.047s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_msgs' for CMake config files
+[14.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[14.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[14.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[14.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[14.065s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib'
+[14.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[14.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[14.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[14.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[14.072s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/bin'
+[14.073s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[14.074s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages'
+[14.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[14.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[14.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[14.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[14.082s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/bin'
+[14.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[14.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[14.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[14.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[14.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[14.092s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[14.096s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[14.096s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_msgs' for CMake module files
+[14.101s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_msgs' for CMake config files
+[14.107s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[14.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[14.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[14.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[14.114s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib'
+[14.114s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[14.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[14.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[14.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[14.120s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/bin'
+[14.120s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[14.121s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages'
+[14.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[14.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[14.124s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[14.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[14.128s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/bin'
+[14.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[14.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[14.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[14.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[14.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[14.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[14.142s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/KoDer_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[14.143s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/KoDer_ws/src/uros/micro-ROS-Agent/micro_ros_agent'
+[14.144s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.144s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/KoDer_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/micro_ros_agent -- -j4 -l4
+[15.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/KoDer_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/micro_ros_agent -- -j4 -l4
+[15.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/KoDer_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/micro_ros_agent
+[15.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[15.787s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_agent' for CMake module files
+[15.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/KoDer_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/micro_ros_agent
+[15.799s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_agent' for CMake config files
+[15.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[15.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[15.809s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[15.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[15.819s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_agent/lib'
+[15.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[15.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[15.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[15.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[15.835s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_agent/bin'
+[15.836s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[15.840s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_agent/lib/python3.12/site-packages'
+[15.843s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_agent/bin'
+[15.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[15.851s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[15.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[15.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[15.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[15.869s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[15.877s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[15.878s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_agent' for CMake module files
+[15.888s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_agent' for CMake config files
+[15.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[15.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[15.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[15.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[15.895s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_agent/lib'
+[15.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[15.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[15.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[15.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[16.046s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_agent/bin'
+[16.047s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[16.049s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_agent/lib/python3.12/site-packages'
+[16.052s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/micro_ros_agent/bin'
+[16.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[16.120s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[16.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[16.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[16.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[16.410s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/KoDer_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[16.489s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/KoDer_ws/src/koder_bringup' with build type 'ament_python'
+[16.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('koder_bringup', 'ament_prefix_path')
+[16.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/hook/ament_prefix_path.ps1'
+[16.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/hook/ament_prefix_path.dsv'
+[16.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/hook/ament_prefix_path.sh'
+[16.798s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.798s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.236s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/KoDer_ws/src/koder_bringup'
+[19.238s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.238s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.033s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/KoDer_ws/install/koder_bringup/share/ament_index/resource_index/packages/koder_bringup
+[26.033s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/package.xml
+[26.035s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/launch/nav2.launch.py
+[26.035s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/launch/bringup.launch.py
+[26.035s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/launch/online_async_slam.launch.py
+[26.036s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/launch/nav2_bringup.launch.py
+[26.036s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/launch/cartographer_slam.launch.py
+[26.037s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/config/scan_filter.yaml
+[26.038s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/config/slam_params.yaml
+[26.038s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/config/ekf.yaml
+[26.039s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/config/koder_nav2.yaml
+[26.039s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/config/cartographer.lua
+[26.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/KoDer_ws/build/koder_bringup': AMENT_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_agent:/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/home/ubuntu/KoDer_ws/install/ld08_driver:/home/ubuntu/KoDer_ws/install/koder_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_agent:/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/home/ubuntu/KoDer_ws/install/ld08_driver:/home/ubuntu/KoDer_ws/install/koder_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_agent/lib:/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/KoDer_ws/build/koder_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/KoDer_ws/install/koder_bringup/lib/python3.12/site-packages:/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/KoDer_ws/build/koder_bringup/build --no-deps symlink_data --force
+[33.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('koder_bringup', 'pythonpath_develop')
+[33.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/build/koder_bringup/share/koder_bringup/hook/pythonpath_develop.ps1'
+[33.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/KoDer_ws/build/koder_bringup' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_agent:/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/home/ubuntu/KoDer_ws/install/ld08_driver:/home/ubuntu/KoDer_ws/install/koder_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_agent:/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/home/ubuntu/KoDer_ws/install/ld08_driver:/home/ubuntu/KoDer_ws/install/koder_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_agent/lib:/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/KoDer_ws/build/koder_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/KoDer_ws/install/koder_bringup/lib/python3.12/site-packages:/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/KoDer_ws/build/koder_bringup/build --no-deps symlink_data --force
+[33.413s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/build/koder_bringup/share/koder_bringup/hook/pythonpath_develop.dsv'
+[33.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/build/koder_bringup/share/koder_bringup/hook/pythonpath_develop.sh'
+[33.422s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/koder_bringup' for CMake module files
+[33.430s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/koder_bringup' for CMake config files
+[33.445s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/koder_bringup/lib'
+[33.446s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/koder_bringup/bin'
+[33.446s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/koder_bringup/lib/pkgconfig/koder_bringup.pc'
+[33.448s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/koder_bringup/lib/python3.12/site-packages'
+[33.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('koder_bringup', 'pythonpath')
+[33.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/hook/pythonpath.ps1'
+[33.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/hook/pythonpath.dsv'
+[33.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/hook/pythonpath.sh'
+[33.467s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/KoDer_ws/install/koder_bringup/bin'
+[33.468s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(koder_bringup)
+[33.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/package.ps1'
+[33.476s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/package.dsv'
+[33.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/package.sh'
+[33.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/package.bash'
+[33.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/package.zsh'
+[33.494s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/KoDer_ws/install/koder_bringup/share/colcon-core/packages/koder_bringup)
+[33.499s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[33.500s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[33.501s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[33.502s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[33.558s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[33.558s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[33.558s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[33.559s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[33.674s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[33.675s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[33.677s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/KoDer_ws/install/local_setup.ps1'
+[33.688s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/KoDer_ws/install/_local_setup_util_ps1.py'
+[33.702s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/KoDer_ws/install/setup.ps1'
+[33.713s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/KoDer_ws/install/local_setup.sh'
+[33.721s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/KoDer_ws/install/_local_setup_util_sh.py'
+[33.727s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/KoDer_ws/install/setup.sh'
+[33.740s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/KoDer_ws/install/local_setup.bash'
+[33.765s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/KoDer_ws/install/setup.bash'
+[33.780s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/KoDer_ws/install/local_setup.zsh'
+[33.788s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/KoDer_ws/install/setup.zsh'

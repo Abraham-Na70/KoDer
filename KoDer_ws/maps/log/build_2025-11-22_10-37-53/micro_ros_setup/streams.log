@@ -1,0 +1,162 @@
+[1.156s] Invoking command in '/home/ubuntu/KoDer_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/micro_ros_setup -- -j4 -l4
+[2.403s] Invoked command in '/home/ubuntu/KoDer_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/micro_ros_setup -- -j4 -l4
+[2.458s] Invoking command in '/home/ubuntu/KoDer_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/micro_ros_setup
+[2.683s] -- Install configuration: ""
+[2.700s] -- Execute custom install script
+[2.708s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[2.717s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[2.729s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[2.737s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[2.743s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[2.752s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[2.760s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[2.768s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[2.777s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[2.788s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[2.797s] -- Symlinking: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[3.035s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[3.050s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[3.055s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[3.066s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[3.067s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[3.072s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[3.079s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[3.083s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[3.088s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[3.102s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[3.111s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[3.119s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[3.126s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[3.132s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/micro_ros_setup/component
+[3.140s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config
+[3.150s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib
+[3.161s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib/generic
+[3.163s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[3.172s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[3.174s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[3.186s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[3.187s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[3.193s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[3.202s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[3.208s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[3.214s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[3.222s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host
+[3.223s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[3.234s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host/generic
+[3.242s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[3.253s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host/generic/package.xml
+[3.262s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host/generic/flash.sh
+[3.264s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host/generic/create.sh
+[3.272s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[3.273s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host/generic/build.sh
+[3.281s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[3.291s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[3.293s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/utils.sh
+[3.301s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr
+[3.302s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[3.310s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/generic
+[3.320s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[3.328s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[3.334s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[3.335s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[3.351s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[3.360s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[3.369s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[3.370s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[3.376s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[3.381s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[3.386s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[3.387s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/client_ros2_packages.txt
+[3.388s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/agent_uros_packages.repos
+[3.392s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian
+[3.396s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian/generic
+[3.400s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[3.407s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[3.408s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[3.414s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[3.415s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[3.420s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[3.422s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[3.429s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[3.432s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[3.433s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/client_uros_packages.repos
+[3.447s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/android
+[3.448s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/android/generic
+[3.457s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/android/generic/package.xml
+[3.459s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/android/generic/flash.sh
+[3.467s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[3.468s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/android/generic/create.sh
+[3.473s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[3.482s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/android/generic/build.sh
+[3.483s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[3.488s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[3.490s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos
+[3.494s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/list_apps.sh
+[3.496s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[3.500s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[3.505s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[3.506s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[3.512s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[3.514s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[3.519s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[3.520s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[3.526s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[3.528s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[3.532s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[3.534s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[3.538s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[3.543s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[3.551s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[3.564s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[3.566s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[3.572s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[3.573s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[3.575s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[3.582s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[3.583s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[3.591s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[3.594s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[3.596s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[3.603s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[3.604s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[3.613s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[3.614s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[3.615s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[3.619s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[3.620s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[3.621s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[3.622s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[3.624s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[3.625s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[3.627s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[3.628s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[3.629s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[3.631s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[3.632s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[3.633s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[3.637s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[3.638s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[3.642s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[3.643s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[3.650s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/crazyflie21
+[3.652s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[3.653s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[3.656s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[3.674s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[3.675s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[3.687s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[3.688s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[3.696s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[3.706s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/esp32
+[3.708s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[3.712s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[3.713s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[3.736s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[3.742s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[3.743s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[3.759s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/esp32/README.md
+[3.766s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[3.767s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[3.783s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[3.785s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[3.790s] Invoked command in '/home/ubuntu/KoDer_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/micro_ros_setup

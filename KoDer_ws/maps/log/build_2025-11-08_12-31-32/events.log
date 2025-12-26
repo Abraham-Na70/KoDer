@@ -1,0 +1,855 @@
+[0.000000] (-) TimerEvent: {}
+[0.000966] (drive_base_msgs) JobQueued: {'identifier': 'drive_base_msgs', 'dependencies': OrderedDict()}
+[0.002024] (koder_description) JobQueued: {'identifier': 'koder_description', 'dependencies': OrderedDict()}
+[0.002502] (ld08_driver) JobQueued: {'identifier': 'ld08_driver', 'dependencies': OrderedDict()}
+[0.002998] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.003168] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.003450] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict({'micro_ros_msgs': '/home/ubuntu/KoDer_ws/install/micro_ros_msgs'})}
+[0.003625] (koder_bringup) JobQueued: {'identifier': 'koder_bringup', 'dependencies': OrderedDict({'koder_description': '/home/ubuntu/KoDer_ws/install/koder_description', 'ld08_driver': '/home/ubuntu/KoDer_ws/install/ld08_driver', 'micro_ros_msgs': '/home/ubuntu/KoDer_ws/install/micro_ros_msgs', 'micro_ros_agent': '/home/ubuntu/KoDer_ws/install/micro_ros_agent'})}
+[0.003720] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.047267] (koder_description) JobStarted: {'identifier': 'koder_description'}
+[0.064047] (ld08_driver) JobStarted: {'identifier': 'ld08_driver'}
+[0.080032] (drive_base_msgs) JobStarted: {'identifier': 'drive_base_msgs'}
+[0.099384] (-) TimerEvent: {}
+[0.103373] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.110785] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[0.113235] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/KoDer_ws/build/micro_ros_msgs', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/KoDer_ws/build/micro_ros_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.189.55.77 36808 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-23e4281e-0039-4b69-a258-965e0e5c08de.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c4c797bb99.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/KoDer_ws/build/micro_ros_msgs', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '10.189.55.77 36808 10.189.55.54 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.126621] (koder_description) JobProgress: {'identifier': 'koder_description', 'progress': 'cmake'}
+[0.181583] (koder_description) JobProgress: {'identifier': 'koder_description', 'progress': 'build'}
+[0.183716] (koder_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/KoDer_ws/build/koder_description', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/KoDer_ws/build/koder_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.189.55.77 36808 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-23e4281e-0039-4b69-a258-965e0e5c08de.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c4c797bb99.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/KoDer_ws/build/koder_description', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '10.189.55.77 36808 10.189.55.54 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.192876] (ld08_driver) JobProgress: {'identifier': 'ld08_driver', 'progress': 'cmake'}
+[0.199605] (-) TimerEvent: {}
+[0.233593] (ld08_driver) JobProgress: {'identifier': 'ld08_driver', 'progress': 'build'}
+[0.235281] (ld08_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/KoDer_ws/build/ld08_driver', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/KoDer_ws/build/ld08_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.189.55.77 36808 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-23e4281e-0039-4b69-a258-965e0e5c08de.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c4c797bb99.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/KoDer_ws/build/ld08_driver', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '10.189.55.77 36808 10.189.55.54 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.253058] (drive_base_msgs) JobProgress: {'identifier': 'drive_base_msgs', 'progress': 'cmake'}
+[0.282804] (drive_base_msgs) JobProgress: {'identifier': 'drive_base_msgs', 'progress': 'build'}
+[0.287500] (drive_base_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/KoDer_ws/build/drive_base_msgs', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/KoDer_ws/build/drive_base_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.189.55.77 36808 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-23e4281e-0039-4b69-a258-965e0e5c08de.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c4c797bb99.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/KoDer_ws/build/drive_base_msgs', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '10.189.55.77 36808 10.189.55.54 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.301117] (-) TimerEvent: {}
+[0.402086] (-) TimerEvent: {}
+[0.503675] (-) TimerEvent: {}
+[0.605252] (-) TimerEvent: {}
+[0.708730] (-) TimerEvent: {}
+[0.813316] (-) TimerEvent: {}
+[0.917264] (-) TimerEvent: {}
+[1.019267] (-) TimerEvent: {}
+[1.125777] (-) TimerEvent: {}
+[1.227718] (-) TimerEvent: {}
+[1.335325] (-) TimerEvent: {}
+[1.384090] (koder_description) CommandEnded: {'returncode': 0}
+[1.405920] (koder_description) JobProgress: {'identifier': 'koder_description', 'progress': 'install'}
+[1.435715] (-) TimerEvent: {}
+[1.543853] (-) TimerEvent: {}
+[1.639078] (koder_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/KoDer_ws/build/koder_description'], 'cwd': '/home/ubuntu/KoDer_ws/build/koder_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.189.55.77 36808 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-23e4281e-0039-4b69-a258-965e0e5c08de.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c4c797bb99.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/KoDer_ws/build/koder_description', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '10.189.55.77 36808 10.189.55.54 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.649555] (-) TimerEvent: {}
+[1.660254] (drive_base_msgs) StdoutLine: {'line': b'[  1%] Built target drive_base_msgs__rosidl_generator_type_description\n'}
+[1.752768] (-) TimerEvent: {}
+[1.826696] (micro_ros_msgs) StdoutLine: {'line': b'[  1%] Built target micro_ros_msgs__rosidl_generator_type_description\n'}
+[1.860757] (-) TimerEvent: {}
+[1.897807] (drive_base_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_drive_base_msgs\n'}
+[1.947657] (koder_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.972092] (-) TimerEvent: {}
+[1.976077] (koder_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.022721] (koder_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/urdf/koder.urdf\n'}
+[2.033489] (koder_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/ament_index/resource_index/package_run_dependencies/koder_description\n'}
+[2.035271] (koder_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/ament_index/resource_index/parent_prefix_path/koder_description\n'}
+[2.044818] (koder_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/environment/ament_prefix_path.sh\n'}
+[2.054338] (koder_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/environment/ament_prefix_path.dsv\n'}
+[2.066579] (koder_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/environment/path.sh\n'}
+[2.071038] (koder_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/environment/path.dsv\n'}
+[2.076049] (-) TimerEvent: {}
+[2.078898] (koder_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/local_setup.bash\n'}
+[2.081876] (koder_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/local_setup.sh\n'}
+[2.083734] (koder_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/local_setup.zsh\n'}
+[2.085579] (koder_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/local_setup.dsv\n'}
+[2.087202] (koder_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/package.dsv\n'}
+[2.176406] (-) TimerEvent: {}
+[2.280409] (-) TimerEvent: {}
+[2.311729] (koder_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/ament_index/resource_index/packages/koder_description\n'}
+[2.328748] (koder_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/cmake/koder_descriptionConfig.cmake\n'}
+[2.337433] (koder_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/cmake/koder_descriptionConfig-version.cmake\n'}
+[2.364175] (koder_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/package.xml\n'}
+[2.370735] (micro_ros_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_micro_ros_msgs\n'}
+[2.384778] (-) TimerEvent: {}
+[2.444700] (koder_description) CommandEnded: {'returncode': 0}
+[2.480393] (ld08_driver) StdoutLine: {'line': b'[100%] Built target ld08_driver\n'}
+[2.490492] (-) TimerEvent: {}
+[2.519796] (micro_ros_msgs) StdoutLine: {'line': b'[ 22%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[2.598434] (drive_base_msgs) StdoutLine: {'line': b'[  3%] Built target drive_base_msgs__cpp\n'}
+[2.602960] (-) TimerEvent: {}
+[2.672723] (micro_ros_msgs) StdoutLine: {'line': b'[ 24%] Built target micro_ros_msgs__cpp\n'}
+[2.717961] (-) TimerEvent: {}
+[2.816530] (drive_base_msgs) StdoutLine: {'line': b'[ 25%] Built target drive_base_msgs__rosidl_generator_c\n'}
+[2.818401] (-) TimerEvent: {}
+[2.959762] (-) TimerEvent: {}
+[3.077713] (-) TimerEvent: {}
+[3.182772] (-) TimerEvent: {}
+[3.301822] (-) TimerEvent: {}
+[3.398300] (koder_description) JobEnded: {'identifier': 'koder_description', 'rc': 0}
+[3.421115] (-) TimerEvent: {}
+[3.453741] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[3.521937] (-) TimerEvent: {}
+[3.596136] (ld08_driver) CommandEnded: {'returncode': 0}
+[3.635941] (ld08_driver) JobProgress: {'identifier': 'ld08_driver', 'progress': 'install'}
+[3.636368] (-) TimerEvent: {}
+[3.656927] (ld08_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/KoDer_ws/build/ld08_driver'], 'cwd': '/home/ubuntu/KoDer_ws/build/ld08_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.189.55.77 36808 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-23e4281e-0039-4b69-a258-965e0e5c08de.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c4c797bb99.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/KoDer_ws/build/ld08_driver', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '10.189.55.77 36808 10.189.55.54 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.709758] (micro_ros_msgs) StdoutLine: {'line': b'[ 33%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[3.715382] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[3.747045] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[3.747497] (-) TimerEvent: {}
+[3.788842] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/KoDer_ws/build/micro_ros_setup', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/KoDer_ws/build/micro_ros_setup', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.189.55.77 36808 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-23e4281e-0039-4b69-a258-965e0e5c08de.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c4c797bb99.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/KoDer_ws/build/micro_ros_setup', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '10.189.55.77 36808 10.189.55.54 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.849545] (-) TimerEvent: {}
+[3.856848] (micro_ros_msgs) StdoutLine: {'line': b'[ 42%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[3.870385] (drive_base_msgs) StdoutLine: {'line': b'[ 34%] Built target drive_base_msgs__rosidl_typesupport_cpp\n'}
+[3.923815] (ld08_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.943586] (ld08_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.945273] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/launch/ld08.launch.py\n'}
+[3.966792] (-) TimerEvent: {}
+[3.980765] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/lib/ld08_driver/ld08_driver\n'}
+[3.982302] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ament_index/resource_index/package_run_dependencies/ld08_driver\n'}
+[4.001597] (drive_base_msgs) StdoutLine: {'line': b'[ 43%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.016757] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ament_index/resource_index/parent_prefix_path/ld08_driver\n'}
+[4.030203] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.sh\n'}
+[4.048803] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.dsv\n'}
+[4.051193] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/environment/path.sh\n'}
+[4.066188] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/environment/path.dsv\n'}
+[4.084336] (-) TimerEvent: {}
+[4.085614] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/local_setup.bash\n'}
+[4.100042] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/local_setup.sh\n'}
+[4.100840] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/local_setup.zsh\n'}
+[4.101788] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/local_setup.dsv\n'}
+[4.115904] (ld08_driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/package.dsv\n'}
+[4.116981] (micro_ros_msgs) StdoutLine: {'line': b'[ 51%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.189624] (-) TimerEvent: {}
+[4.291984] (-) TimerEvent: {}
+[4.305856] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ament_index/resource_index/packages/ld08_driver\n'}
+[4.309784] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.325187] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.339997] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig.cmake\n'}
+[4.350678] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig-version.cmake\n'}
+[4.360847] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/ld08_driver/share/ld08_driver/package.xml\n'}
+[4.397848] (ld08_driver) CommandEnded: {'returncode': 0}
+[4.408764] (-) TimerEvent: {}
+[4.414846] (micro_ros_msgs) StdoutLine: {'line': b'[ 61%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.496005] (drive_base_msgs) StdoutLine: {'line': b'[ 53%] Built target drive_base_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.530276] (-) TimerEvent: {}
+[4.569927] (micro_ros_msgs) StdoutLine: {'line': b'[ 70%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.634586] (drive_base_msgs) StdoutLine: {'line': b'[ 62%] Built target drive_base_msgs__rosidl_typesupport_introspection_c\n'}
+[4.636278] (-) TimerEvent: {}
+[4.757935] (-) TimerEvent: {}
+[4.781380] (drive_base_msgs) StdoutLine: {'line': b'[ 71%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.870119] (-) TimerEvent: {}
+[4.976347] (-) TimerEvent: {}
+[5.061100] (micro_ros_msgs) StdoutLine: {'line': b'[ 79%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[5.087633] (-) TimerEvent: {}
+[5.109805] (ld08_driver) JobEnded: {'identifier': 'ld08_driver', 'rc': 0}
+[5.138094] (drive_base_msgs) StdoutLine: {'line': b'[ 81%] Built target drive_base_msgs__rosidl_typesupport_c\n'}
+[5.192712] (-) TimerEvent: {}
+[5.294674] (-) TimerEvent: {}
+[5.338298] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[5.369770] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[5.370245] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/KoDer_ws/build/micro_ros_setup'], 'cwd': '/home/ubuntu/KoDer_ws/build/micro_ros_setup', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.189.55.77 36808 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-23e4281e-0039-4b69-a258-965e0e5c08de.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c4c797bb99.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/KoDer_ws/build/micro_ros_setup', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '10.189.55.77 36808 10.189.55.54 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.394939] (-) TimerEvent: {}
+[5.505760] (-) TimerEvent: {}
+[5.536819] (micro_ros_msgs) StdoutLine: {'line': b'[ 79%] Built target micro_ros_msgs\n'}
+[5.570755] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.578826] (micro_ros_setup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.594805] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[5.610828] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[5.612623] (-) TimerEvent: {}
+[5.618979] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[5.626999] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[5.646012] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[5.653768] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[5.668986] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[5.678733] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[5.692740] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[5.700724] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[5.714777] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[5.716756] (-) TimerEvent: {}
+[5.824386] (-) TimerEvent: {}
+[5.880304] (drive_base_msgs) StdoutLine: {'line': b'[ 81%] Built target drive_base_msgs\n'}
+[5.927026] (-) TimerEvent: {}
+[5.963257] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[5.980816] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[5.993008] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[6.006120] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[6.014784] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[6.023328] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[6.031424] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[6.033132] (-) TimerEvent: {}
+[6.040330] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[6.053144] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[6.068926] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[6.078397] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[6.086111] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[6.094703] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[6.101760] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_setup/lib/micro_ros_setup/component\n'}
+[6.107360] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config\n'}
+[6.115855] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib\n'}
+[6.123051] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[6.126874] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[6.137501] (-) TimerEvent: {}
+[6.152244] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[6.154005] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[6.163615] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[6.165215] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[6.180965] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[6.193884] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[6.204307] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[6.214703] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[6.228346] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host\n'}
+[6.241786] (-) TimerEvent: {}
+[6.243953] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[6.250751] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host/generic\n'}
+[6.260991] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[6.269780] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[6.272218] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[6.281777] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[6.283601] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[6.292076] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[6.293400] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[6.304012] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[6.312205] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/utils.sh\n'}
+[6.319925] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr\n'}
+[6.321805] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[6.323339] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/generic\n'}
+[6.325263] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[6.327435] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[6.329880] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[6.331302] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[6.332879] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[6.334610] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[6.336106] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[6.338779] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[6.341059] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[6.342577] (-) TimerEvent: {}
+[6.343801] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[6.345250] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[6.349008] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[6.353144] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[6.358892] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian\n'}
+[6.364197] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian/generic\n'}
+[6.369653] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[6.374811] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[6.376855] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[6.383264] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[6.385621] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[6.387774] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[6.389427] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[6.391177] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[6.392991] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[6.394382] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[6.399713] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/android\n'}
+[6.404904] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/android/generic\n'}
+[6.407965] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/android/generic/package.xml\n'}
+[6.409743] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/android/generic/flash.sh\n'}
+[6.412142] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta\n'}
+[6.413349] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/android/generic/create.sh\n'}
+[6.415110] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos\n'}
+[6.417692] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/android/generic/build.sh\n'}
+[6.419047] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt\n'}
+[6.422694] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos\n'}
+[6.424665] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos\n'}
+[6.426104] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[6.427659] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[6.428998] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[6.430393] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[6.433379] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[6.435333] (micro_ros_msgs) StdoutLine: {'line': b'[ 81%] Built target micro_ros_msgs__py\n'}
+[6.440147] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[6.441861] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[6.446690] (-) TimerEvent: {}
+[6.452021] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[6.454009] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[6.463628] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[6.468114] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[6.471340] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[6.479200] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[6.480907] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[6.484719] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[6.489890] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[6.496288] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[6.498020] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[6.505728] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[6.507221] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[6.513159] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[6.518726] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[6.521690] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[6.525314] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[6.526589] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[6.531881] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[6.533741] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[6.537156] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[6.538907] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[6.547383] (-) TimerEvent: {}
+[6.548610] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[6.550169] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[6.554727] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[6.556262] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[6.561954] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[6.566053] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[6.574160] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[6.576074] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[6.584891] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[6.586940] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[6.591780] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[6.597290] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[6.599662] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[6.604911] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[6.610112] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[6.620916] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[6.637018] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[6.638680] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[6.643862] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[6.648649] (-) TimerEvent: {}
+[6.652759] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[6.664000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[6.665913] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[6.678853] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[6.680425] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[6.687672] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[6.706901] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[6.720642] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[6.722327] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/esp32\n'}
+[6.730169] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[6.731813] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[6.763042] (-) TimerEvent: {}
+[6.764094] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[6.765977] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[6.798946] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[6.800559] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[6.819652] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[6.821087] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[6.829881] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[6.831321] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[6.846973] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[6.858593] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[6.876100] (-) TimerEvent: {}
+[6.877428] (drive_base_msgs) StdoutLine: {'line': b'[ 82%] Built target drive_base_msgs__py\n'}
+[6.980682] (-) TimerEvent: {}
+[7.024247] (micro_ros_msgs) StdoutLine: {'line': b'[ 88%] Built target micro_ros_msgs__rosidl_generator_py\n'}
+[7.087686] (-) TimerEvent: {}
+[7.161057] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[7.189715] (-) TimerEvent: {}
+[7.285624] (drive_base_msgs) StdoutLine: {'line': b'[ 90%] Built target drive_base_msgs__rosidl_generator_py\n'}
+[7.298327] (-) TimerEvent: {}
+[7.404728] (-) TimerEvent: {}
+[7.506264] (-) TimerEvent: {}
+[7.601650] (micro_ros_msgs) StdoutLine: {'line': b'[ 92%] Built target micro_ros_msgs_s__rosidl_typesupport_introspection_c\n'}
+[7.612874] (-) TimerEvent: {}
+[7.635303] (micro_ros_msgs) StdoutLine: {'line': b'[ 96%] Built target micro_ros_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[7.722175] (-) TimerEvent: {}
+[7.825717] (-) TimerEvent: {}
+[7.857127] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs_s__rosidl_typesupport_c\n'}
+[7.930754] (-) TimerEvent: {}
+[7.959953] (drive_base_msgs) StdoutLine: {'line': b'[ 93%] Built target drive_base_msgs_s__rosidl_typesupport_c\n'}
+[7.995509] (drive_base_msgs) StdoutLine: {'line': b'[ 96%] Built target drive_base_msgs_s__rosidl_typesupport_introspection_c\n'}
+[8.033814] (-) TimerEvent: {}
+[8.086782] (drive_base_msgs) StdoutLine: {'line': b'[100%] Built target drive_base_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[8.135794] (-) TimerEvent: {}
+[8.237270] (-) TimerEvent: {}
+[8.342717] (-) TimerEvent: {}
+[8.444536] (-) TimerEvent: {}
+[8.529662] (micro_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[8.545996] (-) TimerEvent: {}
+[8.647796] (-) TimerEvent: {}
+[8.751927] (drive_base_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[8.754758] (-) TimerEvent: {}
+[8.816930] (micro_ros_msgs) StdoutLine: {'line': b'writing micro_ros_msgs.egg-info/PKG-INFO\n'}
+[8.823042] (micro_ros_msgs) StdoutLine: {'line': b'writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt\n'}
+[8.825061] (micro_ros_msgs) StdoutLine: {'line': b'writing top-level names to micro_ros_msgs.egg-info/top_level.txt\n'}
+[8.855071] (-) TimerEvent: {}
+[8.957674] (-) TimerEvent: {}
+[9.026953] (drive_base_msgs) StdoutLine: {'line': b'writing drive_base_msgs.egg-info/PKG-INFO\n'}
+[9.029788] (drive_base_msgs) StdoutLine: {'line': b'writing dependency_links to drive_base_msgs.egg-info/dependency_links.txt\n'}
+[9.032988] (drive_base_msgs) StdoutLine: {'line': b'writing top-level names to drive_base_msgs.egg-info/top_level.txt\n'}
+[9.060332] (-) TimerEvent: {}
+[9.162418] (-) TimerEvent: {}
+[9.264037] (-) TimerEvent: {}
+[9.365519] (-) TimerEvent: {}
+[9.466814] (-) TimerEvent: {}
+[9.567167] (micro_ros_msgs) StdoutLine: {'line': b"reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[9.569194] (-) TimerEvent: {}
+[9.576537] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[9.669627] (-) TimerEvent: {}
+[9.772145] (-) TimerEvent: {}
+[9.839414] (drive_base_msgs) StdoutLine: {'line': b"reading manifest file 'drive_base_msgs.egg-info/SOURCES.txt'\n"}
+[9.848736] (drive_base_msgs) StdoutLine: {'line': b"writing manifest file 'drive_base_msgs.egg-info/SOURCES.txt'\n"}
+[9.873998] (-) TimerEvent: {}
+[9.923404] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_micro_ros_msgs_egg\n'}
+[9.974698] (-) TimerEvent: {}
+[10.077624] (-) TimerEvent: {}
+[10.122989] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[10.129956] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[10.133029] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/KoDer_ws/build/micro_ros_msgs'], 'cwd': '/home/ubuntu/KoDer_ws/build/micro_ros_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.189.55.77 36808 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-23e4281e-0039-4b69-a258-965e0e5c08de.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c4c797bb99.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/KoDer_ws/build/micro_ros_msgs', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '10.189.55.77 36808 10.189.55.54 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.180364] (-) TimerEvent: {}
+[10.196801] (drive_base_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_drive_base_msgs_egg\n'}
+[10.264237] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.271842] (micro_ros_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.276051] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[10.279757] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.json\n'}
+[10.281639] (-) TimerEvent: {}
+[10.284606] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.json\n'}
+[10.287609] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.json\n'}
+[10.299939] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[10.303021] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[10.306020] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[10.308483] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[10.311586] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[10.314574] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[10.317483] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[10.320308] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[10.323329] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[10.326033] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h\n'}
+[10.328798] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h\n'}
+[10.334252] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h\n'}
+[10.337625] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.343676] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[10.345082] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[10.353637] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[10.358607] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[10.367538] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[10.369672] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.374700] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[10.380561] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[10.384654] (-) TimerEvent: {}
+[10.386598] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[10.388155] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.398157] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[10.399844] (drive_base_msgs) CommandEnded: {'returncode': 0}
+[10.405285] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[10.407019] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[10.410478] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.hpp\n'}
+[10.421543] (drive_base_msgs) JobProgress: {'identifier': 'drive_base_msgs', 'progress': 'install'}
+[10.422507] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[10.424962] (drive_base_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/KoDer_ws/build/drive_base_msgs'], 'cwd': '/home/ubuntu/KoDer_ws/build/drive_base_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.189.55.77 36808 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-23e4281e-0039-4b69-a258-965e0e5c08de.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c4c797bb99.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/KoDer_ws/build/drive_base_msgs', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '10.189.55.77 36808 10.189.55.54 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.428525] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[10.434054] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[10.436177] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.hpp\n'}
+[10.437618] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[10.438926] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[10.440772] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[10.442084] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.hpp\n'}
+[10.443772] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp\n'}
+[10.445216] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp\n'}
+[10.446528] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp\n'}
+[10.447830] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.456616] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.460002] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.463592] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.467932] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.475821] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.478990] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.482703] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.487228] (-) TimerEvent: {}
+[10.490854] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[10.494806] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[10.502402] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/PKG-INFO\n'}
+[10.504330] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/SOURCES.txt\n'}
+[10.506759] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/dependency_links.txt\n'}
+[10.508376] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/top_level.txt\n'}
+[10.525353] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/__init__.py\n'}
+[10.528230] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[10.530956] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.533794] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.536504] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so\n'}
+[10.548378] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.551186] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[10.554262] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/__init__.py\n'}
+[10.556359] (drive_base_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.558138] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_entity.py\n'}
+[10.560273] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[10.563056] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_graph.py\n'}
+[10.565857] (drive_base_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.569096] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[10.570545] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_node.py\n'}
+[10.572356] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/ament_index/resource_index/rosidl_interfaces/drive_base_msgs\n'}
+[10.574190] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[10.575501] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.json\n'}
+[10.577406] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.json\n'}
+[10.579050] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.580834] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.json\n'}
+[10.583145] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[10.584707] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.json\n'}
+[10.587464] (-) TimerEvent: {}
+[10.589978] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so\n'}
+[10.593022] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[10.596947] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[10.599973] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/base_info.h\n'}
+[10.601853] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_header.h\n'}
+[10.605710] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_status.h\n'}
+[10.607104] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[10.609146] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[10.614270] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__functions.h\n'}
+[10.615594] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[10.617501] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[10.620130] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__struct.h\n'}
+[10.621396] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.h\n'}
+[10.623765] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[10.626034] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[10.627263] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[10.629612] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__functions.h\n'}
+[10.631204] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__struct.h\n'}
+[10.633666] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.h\n'}
+[10.635683] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[10.637781] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__functions.h\n'}
+[10.639064] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[10.640277] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[10.642489] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__struct.h\n'}
+[10.643994] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.h\n'}
+[10.646042] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[10.647272] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__functions.h\n'}
+[10.649346] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[10.650607] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__struct.h\n'}
+[10.651885] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[10.654080] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.h\n'}
+[10.655365] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[10.656498] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.658058] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[10.659194] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/trv_command.h\n'}
+[10.660549] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.sh\n'}
+[10.661835] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.dsv\n'}
+[10.664971] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h\n'}
+[10.667595] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h\n'}
+[10.670673] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h\n'}
+[10.673784] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h\n'}
+[10.676745] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.687633] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/base_info.hpp\n'}
+[10.689045] (-) TimerEvent: {}
+[10.690516] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_header.hpp\n'}
+[10.694637] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_status.hpp\n'}
+[10.699009] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__builder.hpp\n'}
+[10.702098] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__struct.hpp\n'}
+[10.704368] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__traits.hpp\n'}
+[10.706242] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.hpp\n'}
+[10.707555] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__builder.hpp\n'}
+[10.709285] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__struct.hpp\n'}
+[10.710202] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__traits.hpp\n'}
+[10.711240] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.hpp\n'}
+[10.712290] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__builder.hpp\n'}
+[10.713543] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__struct.hpp\n'}
+[10.715034] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__traits.hpp\n'}
+[10.716034] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.hpp\n'}
+[10.717275] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__builder.hpp\n'}
+[10.718577] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__struct.hpp\n'}
+[10.719806] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__traits.hpp\n'}
+[10.721053] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.hpp\n'}
+[10.722222] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.723628] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/trv_command.hpp\n'}
+[10.728385] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.729641] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.731021] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.732411] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.734913] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.735807] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[10.736599] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_c.h\n'}
+[10.737348] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[10.738142] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_c.h\n'}
+[10.738830] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.739550] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_c.h\n'}
+[10.740055] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.741754] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_c.h\n'}
+[10.744286] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.745706] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.746156] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.746929] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.747347] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.747906] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.748401] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.748999] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.749606] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[10.750470] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[10.750916] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[10.751317] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.751793] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.sh\n'}
+[10.752331] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.dsv\n'}
+[10.752835] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[10.753417] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[10.754168] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[10.754987] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[10.755749] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[10.759605] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[10.762495] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/__init__.py\n'}
+[10.763810] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[10.764621] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[10.765678] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.766953] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.768575] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.so\n'}
+[10.769481] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.771627] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[10.772319] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[10.772976] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/__init__.py\n'}
+[10.774043] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_base_info.py\n'}
+[10.775271] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_base_info_s.c\n'}
+[10.776548] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_header.py\n'}
+[10.777264] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.778309] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_header_s.c\n'}
+[10.779586] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_status.py\n'}
+[10.780824] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_status_s.c\n'}
+[10.782058] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_trv_command.py\n'}
+[10.782687] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[10.783338] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_trv_command_s.c\n'}
+[10.786733] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.787386] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[10.789201] (-) TimerEvent: {}
+[10.790393] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[10.801823] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.so\n'}
+[10.805387] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.idl\n'}
+[10.808601] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.idl\n'}
+[10.812265] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.idl\n'}
+[10.815726] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.idl\n'}
+[10.819968] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.msg\n'}
+[10.822946] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.msg\n'}
+[10.825973] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.msg\n'}
+[10.829163] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.msg\n'}
+[10.832965] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/ament_index/resource_index/package_run_dependencies/drive_base_msgs\n'}
+[10.839922] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/ament_index/resource_index/parent_prefix_path/drive_base_msgs\n'}
+[10.841409] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.sh\n'}
+[10.843019] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.dsv\n'}
+[10.847526] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.sh\n'}
+[10.849957] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.dsv\n'}
+[10.852847] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.bash\n'}
+[10.855870] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.sh\n'}
+[10.858876] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.zsh\n'}
+[10.862300] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.dsv\n'}
+[10.866897] (drive_base_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv\n'}
+[10.889602] (-) TimerEvent: {}
+[10.991022] (-) TimerEvent: {}
+[10.994809] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/ament_index/resource_index/packages/drive_base_msgs\n'}
+[10.998710] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[11.006858] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.013492] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.016888] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.018753] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.021632] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.023776] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.027139] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig.cmake\n'}
+[11.030874] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig-version.cmake\n'}
+[11.032811] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/package.xml\n'}
+[11.066800] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_c.so\n'}
+[11.081299] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[11.092178] (-) TimerEvent: {}
+[11.099860] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.119740] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_c.so\n'}
+[11.127728] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_c.so\n'}
+[11.141242] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[11.149923] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_cpp.so\n'}
+[11.192565] (-) TimerEvent: {}
+[11.293976] (-) TimerEvent: {}
+[11.298045] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs'...\n"}
+[11.300366] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg'...\n"}
+[11.374916] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[11.385168] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[11.390649] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.394261] (-) TimerEvent: {}
+[11.396381] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.399916] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.404531] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.408223] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.411605] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[11.413904] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.417611] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[11.422707] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.425903] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.429274] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.433489] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.437677] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[11.440580] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.442822] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake\n'}
+[11.446096] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.469675] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[11.494593] (-) TimerEvent: {}
+[11.595964] (-) TimerEvent: {}
+[11.618719] (drive_base_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs'...\n"}
+[11.622490] (drive_base_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg'...\n"}
+[11.690537] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_py.so\n'}
+[11.696678] (-) TimerEvent: {}
+[11.703967] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cExport.cmake\n'}
+[11.707723] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.712599] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.714128] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.718307] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cppExport.cmake\n'}
+[11.722050] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.725708] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.727769] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.729809] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.740831] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport.cmake\n'}
+[11.742282] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.748394] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.756616] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.759263] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[11.765385] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.766931] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_pyExport.cmake\n'}
+[11.769542] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/KoDer_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.789193] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[11.798997] (-) TimerEvent: {}
+[11.799959] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[11.841609] (drive_base_msgs) CommandEnded: {'returncode': 0}
+[11.899299] (-) TimerEvent: {}
+[12.002395] (-) TimerEvent: {}
+[12.003290] (drive_base_msgs) JobEnded: {'identifier': 'drive_base_msgs', 'rc': 0}
+[12.009879] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[12.018914] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[12.023879] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/KoDer_ws/build/micro_ros_agent', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/KoDer_ws/build/micro_ros_agent', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.189.55.77 36808 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-23e4281e-0039-4b69-a258-965e0e5c08de.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c4c797bb99.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/KoDer_ws/build/micro_ros_agent', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '10.189.55.77 36808 10.189.55.54 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[12.102714] (-) TimerEvent: {}
+[12.204045] (-) TimerEvent: {}
+[12.305713] (-) TimerEvent: {}
+[12.406977] (-) TimerEvent: {}
+[12.508361] (-) TimerEvent: {}
+[12.609776] (-) TimerEvent: {}
+[12.711370] (-) TimerEvent: {}
+[12.812582] (-) TimerEvent: {}
+[12.861992] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[12.912872] (-) TimerEvent: {}
+[12.995240] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[13.002375] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[13.004408] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/KoDer_ws/build/micro_ros_agent'], 'cwd': '/home/ubuntu/KoDer_ws/build/micro_ros_agent', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.189.55.77 36808 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-23e4281e-0039-4b69-a258-965e0e5c08de.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c4c797bb99.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/KoDer_ws/build/micro_ros_agent', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '10.189.55.77 36808 10.189.55.54 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[13.015045] (-) TimerEvent: {}
+[13.116243] (-) TimerEvent: {}
+[13.119492] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.126868] (micro_ros_agent) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[13.131229] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[13.134928] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[13.138200] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[13.141147] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[13.144434] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[13.147673] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[13.150606] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[13.153369] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[13.158855] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[13.162348] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[13.163788] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[13.216682] (-) TimerEvent: {}
+[13.293039] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[13.296723] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.300543] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[13.303061] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[13.306779] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[13.314975] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[13.316804] (-) TimerEvent: {}
+[13.320734] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[13.337772] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[13.417189] (-) TimerEvent: {}
+[13.518435] (-) TimerEvent: {}
+[13.529800] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[13.540125] (koder_bringup) JobStarted: {'identifier': 'koder_bringup'}
+[13.618841] (-) TimerEvent: {}
+[13.720051] (-) TimerEvent: {}
+[13.820899] (-) TimerEvent: {}
+[13.921551] (-) TimerEvent: {}
+[14.022181] (-) TimerEvent: {}
+[14.122847] (-) TimerEvent: {}
+[14.223495] (-) TimerEvent: {}
+[14.324065] (-) TimerEvent: {}
+[14.424694] (-) TimerEvent: {}
+[14.525388] (-) TimerEvent: {}
+[14.626308] (-) TimerEvent: {}
+[14.726989] (-) TimerEvent: {}
+[14.827706] (-) TimerEvent: {}
+[14.928331] (-) TimerEvent: {}
+[15.029043] (-) TimerEvent: {}
+[15.129869] (-) TimerEvent: {}
+[15.231146] (-) TimerEvent: {}
+[15.332541] (-) TimerEvent: {}
+[15.433737] (-) TimerEvent: {}
+[15.534952] (-) TimerEvent: {}
+[15.636154] (-) TimerEvent: {}
+[15.737574] (-) TimerEvent: {}
+[15.838771] (-) TimerEvent: {}
+[15.940125] (-) TimerEvent: {}
+[16.041368] (-) TimerEvent: {}
+[16.142687] (-) TimerEvent: {}
+[16.243986] (-) TimerEvent: {}
+[16.345362] (-) TimerEvent: {}
+[16.446747] (-) TimerEvent: {}
+[16.548255] (-) TimerEvent: {}
+[16.649488] (-) TimerEvent: {}
+[16.750220] (-) TimerEvent: {}
+[16.851043] (-) TimerEvent: {}
+[16.951804] (-) TimerEvent: {}
+[17.052982] (-) TimerEvent: {}
+[17.153630] (-) TimerEvent: {}
+[17.254276] (-) TimerEvent: {}
+[17.354911] (-) TimerEvent: {}
+[17.455569] (-) TimerEvent: {}
+[17.556265] (-) TimerEvent: {}
+[17.656999] (-) TimerEvent: {}
+[17.757567] (-) TimerEvent: {}
+[17.858127] (-) TimerEvent: {}
+[17.958795] (-) TimerEvent: {}
+[18.059426] (-) TimerEvent: {}
+[18.160231] (-) TimerEvent: {}
+[18.260924] (-) TimerEvent: {}
+[18.361751] (-) TimerEvent: {}
+[18.463141] (-) TimerEvent: {}
+[18.563847] (-) TimerEvent: {}
+[18.664590] (-) TimerEvent: {}
+[18.765341] (-) TimerEvent: {}
+[18.866023] (-) TimerEvent: {}
+[18.966927] (-) TimerEvent: {}
+[18.987349] (koder_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/KoDer_ws/build/koder_bringup/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ubuntu/KoDer_ws/build/koder_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.189.55.77 36808 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/KoDer_ws/install/micro_ros_agent/lib:/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-23e4281e-0039-4b69-a258-965e0e5c08de.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c4c797bb99.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/KoDer_ws/install/micro_ros_agent:/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/home/ubuntu/KoDer_ws/install/ld08_driver:/home/ubuntu/KoDer_ws/install/koder_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/KoDer_ws/build/koder_bringup', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '10.189.55.77 36808 10.189.55.54 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/KoDer_ws/build/koder_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/KoDer_ws/install/koder_bringup/lib/python3.12/site-packages:/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/KoDer_ws/install/micro_ros_agent:/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/home/ubuntu/KoDer_ws/install/ld08_driver:/home/ubuntu/KoDer_ws/install/koder_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[19.067079] (-) TimerEvent: {}
+[19.167735] (-) TimerEvent: {}
+[19.268354] (-) TimerEvent: {}
+[19.369030] (-) TimerEvent: {}
+[19.469597] (-) TimerEvent: {}
+[19.570158] (-) TimerEvent: {}
+[19.670773] (-) TimerEvent: {}
+[19.772066] (-) TimerEvent: {}
+[19.872747] (-) TimerEvent: {}
+[19.973382] (-) TimerEvent: {}
+[20.073998] (-) TimerEvent: {}
+[20.174575] (-) TimerEvent: {}
+[20.275307] (-) TimerEvent: {}
+[20.346654] (koder_bringup) StdoutLine: {'line': b'running develop\n'}
+[20.375508] (-) TimerEvent: {}
+[20.476202] (-) TimerEvent: {}
+[20.577611] (-) TimerEvent: {}
+[20.678794] (-) TimerEvent: {}
+[20.780033] (-) TimerEvent: {}
+[20.882375] (-) TimerEvent: {}
+[20.983662] (-) TimerEvent: {}
+[21.084948] (-) TimerEvent: {}
+[21.186515] (-) TimerEvent: {}
+[21.287654] (-) TimerEvent: {}
+[21.388892] (-) TimerEvent: {}
+[21.490114] (-) TimerEvent: {}
+[21.591402] (-) TimerEvent: {}
+[21.692714] (-) TimerEvent: {}
+[21.793962] (-) TimerEvent: {}
+[21.895212] (-) TimerEvent: {}
+[21.996515] (-) TimerEvent: {}
+[22.097656] (-) TimerEvent: {}
+[22.198897] (-) TimerEvent: {}
+[22.300129] (-) TimerEvent: {}
+[22.401334] (-) TimerEvent: {}
+[22.502643] (-) TimerEvent: {}
+[22.603811] (-) TimerEvent: {}
+[22.705042] (-) TimerEvent: {}
+[22.726273] (koder_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[22.805328] (-) TimerEvent: {}
+[22.906666] (-) TimerEvent: {}
+[22.952151] (koder_bringup) StdoutLine: {'line': b'writing koder_bringup.egg-info/PKG-INFO\n'}
+[22.955162] (koder_bringup) StdoutLine: {'line': b'writing dependency_links to koder_bringup.egg-info/dependency_links.txt\n'}
+[22.958313] (koder_bringup) StdoutLine: {'line': b'writing requirements to koder_bringup.egg-info/requires.txt\n'}
+[22.960281] (koder_bringup) StdoutLine: {'line': b'writing top-level names to koder_bringup.egg-info/top_level.txt\n'}
+[23.006909] (-) TimerEvent: {}
+[23.108189] (-) TimerEvent: {}
+[23.209521] (-) TimerEvent: {}
+[23.310732] (-) TimerEvent: {}
+[23.385177] (koder_bringup) StdoutLine: {'line': b"reading manifest file 'koder_bringup.egg-info/SOURCES.txt'\n"}
+[23.392158] (koder_bringup) StdoutLine: {'line': b"writing manifest file 'koder_bringup.egg-info/SOURCES.txt'\n"}
+[23.410862] (-) TimerEvent: {}
+[23.511711] (-) TimerEvent: {}
+[23.529057] (koder_bringup) StdoutLine: {'line': b'running build_ext\n'}
+[23.530708] (koder_bringup) StdoutLine: {'line': b'Creating /home/ubuntu/KoDer_ws/install/koder_bringup/lib/python3.12/site-packages/koder-bringup.egg-link (link to .)\n'}
+[23.536819] (koder_bringup) StdoutLine: {'line': b'\n'}
+[23.538797] (koder_bringup) StdoutLine: {'line': b'Installed /home/ubuntu/KoDer_ws/build/koder_bringup\n'}
+[23.540375] (koder_bringup) StdoutLine: {'line': b'running symlink_data\n'}
+[23.612099] (-) TimerEvent: {}
+[23.713852] (-) TimerEvent: {}
+[23.815758] (-) TimerEvent: {}
+[23.833161] (koder_bringup) CommandEnded: {'returncode': 0}
+[23.916001] (-) TimerEvent: {}
+[23.924186] (koder_bringup) JobEnded: {'identifier': 'koder_bringup', 'rc': 0}
+[23.933762] (-) EventReactorShutdown: {}

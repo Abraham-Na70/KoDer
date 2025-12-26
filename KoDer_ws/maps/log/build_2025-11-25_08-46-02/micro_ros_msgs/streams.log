@@ -1,0 +1,157 @@
+[0.240s] Invoking command in '/home/ubuntu/KoDer_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/micro_ros_msgs -- -j4 -l4
+[2.114s] [  1%] Built target micro_ros_msgs__rosidl_generator_type_description
+[2.243s] [  1%] Built target ament_cmake_python_symlink_micro_ros_msgs
+[2.544s] [  3%] Built target micro_ros_msgs__cpp
+[2.569s] [ 24%] Built target micro_ros_msgs__rosidl_generator_c
+[3.562s] [ 33%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[3.671s] [ 42%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[3.800s] [ 51%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[3.964s] [ 61%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[4.076s] [ 70%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[4.350s] [ 79%] Built target micro_ros_msgs__rosidl_typesupport_c
+[4.440s] running egg_info
+[4.614s] writing micro_ros_msgs.egg-info/PKG-INFO
+[4.619s] writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt
+[4.623s] writing top-level names to micro_ros_msgs.egg-info/top_level.txt
+[4.697s] [ 79%] Built target micro_ros_msgs
+[5.085s] [ 81%] Built target micro_ros_msgs__py
+[5.265s] reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[5.266s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[5.495s] [ 81%] Built target ament_cmake_python_build_micro_ros_msgs_egg
+[5.605s] [ 88%] Built target micro_ros_msgs__rosidl_generator_py
+[5.860s] [ 92%] Built target micro_ros_msgs_s__rosidl_typesupport_c
+[5.866s] [ 96%] Built target micro_ros_msgs_s__rosidl_typesupport_fastrtps_c
+[5.900s] [100%] Built target micro_ros_msgs_s__rosidl_typesupport_introspection_c
+[5.990s] Invoked command in '/home/ubuntu/KoDer_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/micro_ros_msgs -- -j4 -l4
+[6.001s] Invoking command in '/home/ubuntu/KoDer_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/micro_ros_msgs
+[6.063s] -- Install configuration: ""
+[6.069s] -- Execute custom install script
+[6.071s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[6.072s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.json
+[6.073s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.json
+[6.074s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.json
+[6.077s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h
+[6.079s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h
+[6.080s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h
+[6.083s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h
+[6.084s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h
+[6.085s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h
+[6.086s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h
+[6.087s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h
+[6.090s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h
+[6.093s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h
+[6.093s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h
+[6.094s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h
+[6.102s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.102s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[6.103s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[6.106s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[6.111s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[6.113s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[6.114s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.115s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[6.116s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[6.117s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[6.117s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.118s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp
+[6.121s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp
+[6.122s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp
+[6.124s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.hpp
+[6.126s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp
+[6.129s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp
+[6.130s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp
+[6.131s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.hpp
+[6.132s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp
+[6.132s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp
+[6.133s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp
+[6.133s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.hpp
+[6.134s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp
+[6.134s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp
+[6.135s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp
+[6.135s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.137s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[6.138s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[6.140s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[6.141s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.143s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[6.144s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[6.145s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[6.147s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[6.148s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[6.150s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/PKG-INFO
+[6.151s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/SOURCES.txt
+[6.153s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/dependency_links.txt
+[6.154s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/top_level.txt
+[6.161s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/__init__.py
+[6.163s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c
+[6.167s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.168s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.170s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so
+[6.171s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so
+[6.172s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so
+[6.172s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/__init__.py
+[6.174s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_entity.py
+[6.176s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_entity_s.c
+[6.178s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_graph.py
+[6.178s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_graph_s.c
+[6.179s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_node.py
+[6.180s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_node_s.c
+[6.181s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so
+[6.183s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so
+[6.187s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so
+[6.188s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[6.189s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[6.190s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[6.190s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[6.191s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[6.193s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[6.196s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[6.197s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[6.198s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[6.199s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[6.202s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[6.203s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[6.205s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[6.207s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[6.209s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[6.209s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[6.210s] -- Symlinking: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[6.277s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[6.279s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[6.280s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.281s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.282s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.285s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.286s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.286s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.287s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[6.287s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[6.288s] -- Up-to-date symlink: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[6.292s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[6.297s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[6.305s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[6.308s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[6.315s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.321s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[6.325s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[6.543s] Listing '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs'...
+[6.544s] Listing '/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg'...
+[6.578s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so
+[6.582s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake
+[6.583s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.585s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.586s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.590s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.591s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.593s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[6.594s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.597s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake
+[6.599s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.600s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.603s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.603s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.606s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[6.606s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.609s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake
+[6.610s] -- Up-to-date: /home/ubuntu/KoDer_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.621s] Invoked command in '/home/ubuntu/KoDer_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/micro_ros_msgs

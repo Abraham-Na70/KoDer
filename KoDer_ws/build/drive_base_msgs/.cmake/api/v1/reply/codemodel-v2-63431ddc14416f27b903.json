@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b6c75772e8d843cdc233.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "drive_base_msgs__py",
+					"jsonFile" : "directory-drive_base_msgs__py-262f088d039c48617170.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ubuntu/KoDer_ws/build/drive_base_msgs/drive_base_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "drive_base_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_drive_base_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_drive_base_msgs_egg-219f38f89d954dcc9385.json",
+					"name" : "ament_cmake_python_build_drive_base_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_drive_base_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_drive_base_msgs-1e598b61e8454d7d43ba.json",
+					"name" : "ament_cmake_python_symlink_drive_base_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs-8e886e03c6abdb81bbb6.json",
+					"name" : "drive_base_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__cpp-9fdfd2eb7239d9e7402a.json",
+					"name" : "drive_base_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "drive_base_msgs__py::@a7b11c69a8f866d1b5b1",
+					"jsonFile" : "target-drive_base_msgs__py-85be09a74de6ca2d9de4.json",
+					"name" : "drive_base_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_generator_c-75387f92c6375985af0b.json",
+					"name" : "drive_base_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_generator_py-e2bbed6ce699469e2bc9.json",
+					"name" : "drive_base_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_generator_type_description-81d99233b41813651b55.json",
+					"name" : "drive_base_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_c-043788d845973d95184b.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_cpp-641e703987f96749420d.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_fastrtps_c-65a129e0a1bad4e9252f.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_fastrtps_cpp-09a22e6bcb478cfa3935.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_introspection_c-2e9ad683e22fd5010784.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_introspection_cpp-11b67f399085517afd11.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs_s__rosidl_typesupport_c-523b45f44c7caa2da368.json",
+					"name" : "drive_base_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs_s__rosidl_typesupport_fastrtps_c-3a92aced14fba3ee9d16.json",
+					"name" : "drive_base_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs_s__rosidl_typesupport_introspection_c-af2d0ab95300876504b9.json",
+					"name" : "drive_base_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs_uninstall-850139a7fb5d6d03bae4.json",
+					"name" : "drive_base_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-51cd31b832645668ae32.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/KoDer_ws/build/drive_base_msgs",
+		"source" : "/home/ubuntu/KoDer_ws/src/uros/drive_base/drive_base_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

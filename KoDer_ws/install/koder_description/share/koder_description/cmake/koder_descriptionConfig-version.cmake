@@ -1,0 +1,1 @@
+/home/ubuntu/KoDer_ws/build/koder_description/ament_cmake_core/koder_descriptionConfig-version.cmake

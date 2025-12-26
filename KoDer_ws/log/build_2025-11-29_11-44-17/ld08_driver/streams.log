@@ -1,0 +1,3 @@
+[0.305s] Invoking command in '/home/ubuntu/KoDer_ws/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/ld08_driver -- -j4 -l4
+[2.323s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/ld08_driver.dir/all] Interrupt
+[2.325s] gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,199 @@
+[0.000000] (-) TimerEvent: {}
+[0.001040] (-) JobUnselected: {'identifier': 'drive_base_msgs'}
+[0.002647] (-) JobUnselected: {'identifier': 'koder_description'}
+[0.004427] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.004667] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.004875] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.005111] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.006314] (koder_bringup) JobQueued: {'identifier': 'koder_bringup', 'dependencies': OrderedDict({'koder_description': '/home/ubuntu/KoDer_ws/install/koder_description', 'ld08_driver': '/home/ubuntu/KoDer_ws/install/ld08_driver', 'micro_ros_msgs': '/home/ubuntu/KoDer_ws/install/micro_ros_msgs', 'micro_ros_agent': '/home/ubuntu/KoDer_ws/install/micro_ros_agent'})}
+[0.006660] (koder_bringup) JobStarted: {'identifier': 'koder_bringup'}
+[0.098198] (-) TimerEvent: {}
+[0.199224] (-) TimerEvent: {}
+[0.300195] (-) TimerEvent: {}
+[0.401544] (-) TimerEvent: {}
+[0.503200] (-) TimerEvent: {}
+[0.604598] (-) TimerEvent: {}
+[0.705934] (-) TimerEvent: {}
+[0.807346] (-) TimerEvent: {}
+[0.908741] (-) TimerEvent: {}
+[1.010011] (-) TimerEvent: {}
+[1.111266] (-) TimerEvent: {}
+[1.212448] (-) TimerEvent: {}
+[1.313712] (-) TimerEvent: {}
+[1.415041] (-) TimerEvent: {}
+[1.516329] (-) TimerEvent: {}
+[1.617585] (-) TimerEvent: {}
+[1.718813] (-) TimerEvent: {}
+[1.820295] (-) TimerEvent: {}
+[1.922178] (-) TimerEvent: {}
+[2.023585] (-) TimerEvent: {}
+[2.124808] (-) TimerEvent: {}
+[2.226038] (-) TimerEvent: {}
+[2.328292] (-) TimerEvent: {}
+[2.429502] (-) TimerEvent: {}
+[2.530731] (-) TimerEvent: {}
+[2.631986] (-) TimerEvent: {}
+[2.733839] (-) TimerEvent: {}
+[2.839729] (-) TimerEvent: {}
+[2.941004] (-) TimerEvent: {}
+[3.042432] (-) TimerEvent: {}
+[3.146299] (-) TimerEvent: {}
+[3.247572] (-) TimerEvent: {}
+[3.349035] (-) TimerEvent: {}
+[3.450319] (-) TimerEvent: {}
+[3.551897] (-) TimerEvent: {}
+[3.653295] (-) TimerEvent: {}
+[3.754577] (-) TimerEvent: {}
+[3.855908] (-) TimerEvent: {}
+[3.957172] (-) TimerEvent: {}
+[4.058044] (-) TimerEvent: {}
+[4.159298] (-) TimerEvent: {}
+[4.260559] (-) TimerEvent: {}
+[4.361965] (-) TimerEvent: {}
+[4.463247] (-) TimerEvent: {}
+[4.564441] (-) TimerEvent: {}
+[4.665929] (-) TimerEvent: {}
+[4.767252] (-) TimerEvent: {}
+[4.868414] (-) TimerEvent: {}
+[4.969658] (-) TimerEvent: {}
+[5.070935] (-) TimerEvent: {}
+[5.172247] (-) TimerEvent: {}
+[5.273539] (-) TimerEvent: {}
+[5.374805] (-) TimerEvent: {}
+[5.476173] (-) TimerEvent: {}
+[5.577205] (-) TimerEvent: {}
+[5.677924] (-) TimerEvent: {}
+[5.778782] (-) TimerEvent: {}
+[5.879624] (-) TimerEvent: {}
+[5.980473] (-) TimerEvent: {}
+[6.081808] (-) TimerEvent: {}
+[6.183245] (-) TimerEvent: {}
+[6.284384] (-) TimerEvent: {}
+[6.385158] (-) TimerEvent: {}
+[6.485841] (-) TimerEvent: {}
+[6.586694] (-) TimerEvent: {}
+[6.688182] (-) TimerEvent: {}
+[6.789651] (-) TimerEvent: {}
+[6.891208] (-) TimerEvent: {}
+[6.995407] (-) TimerEvent: {}
+[7.097685] (-) TimerEvent: {}
+[7.198417] (-) TimerEvent: {}
+[7.299640] (-) TimerEvent: {}
+[7.401016] (-) TimerEvent: {}
+[7.502594] (-) TimerEvent: {}
+[7.603828] (-) TimerEvent: {}
+[7.705177] (-) TimerEvent: {}
+[7.806480] (-) TimerEvent: {}
+[7.907859] (-) TimerEvent: {}
+[8.009289] (-) TimerEvent: {}
+[8.110496] (-) TimerEvent: {}
+[8.211871] (-) TimerEvent: {}
+[8.313179] (-) TimerEvent: {}
+[8.414201] (-) TimerEvent: {}
+[8.514898] (-) TimerEvent: {}
+[8.616250] (-) TimerEvent: {}
+[8.717418] (-) TimerEvent: {}
+[8.818648] (-) TimerEvent: {}
+[8.919895] (-) TimerEvent: {}
+[9.021232] (-) TimerEvent: {}
+[9.122384] (-) TimerEvent: {}
+[9.223583] (-) TimerEvent: {}
+[9.324800] (-) TimerEvent: {}
+[9.425994] (-) TimerEvent: {}
+[9.527335] (-) TimerEvent: {}
+[9.628541] (-) TimerEvent: {}
+[9.729756] (-) TimerEvent: {}
+[9.831215] (-) TimerEvent: {}
+[9.932943] (-) TimerEvent: {}
+[10.034782] (-) TimerEvent: {}
+[10.136749] (-) TimerEvent: {}
+[10.172169] (koder_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/koder_bringup', 'build', '--build-base', '/home/ubuntu/KoDer_ws/build/koder_bringup/build', 'install', '--record', '/home/ubuntu/KoDer_ws/build/koder_bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/KoDer_ws/src/koder_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.200.242 41068 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/KoDer_ws/install/micro_ros_agent/lib:/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib:/home/ubuntu/KoDer_ws/install/drive_base_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/KoDer_ws', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5a076971-322c-4d60-962e-c2c37eee01f3.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/KoDer_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/ubuntu/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c4c797bb99.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/KoDer_ws/install/micro_ros_setup:/home/ubuntu/KoDer_ws/install/koder_bringup:/home/ubuntu/KoDer_ws/install/micro_ros_agent:/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/home/ubuntu/KoDer_ws/install/ld08_driver:/home/ubuntu/KoDer_ws/install/koder_description:/home/ubuntu/KoDer_ws/install/drive_base_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/KoDer_ws/build/koder_bringup', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '192.168.200.242 41068 192.168.200.160 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/KoDer_ws/build/koder_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/KoDer_ws/install/koder_bringup/lib/python3.12/site-packages:/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/ubuntu/KoDer_ws/install/koder_bringup/lib/python3.12/site-packages:/home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/KoDer_ws/install/micro_ros_agent:/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/home/ubuntu/KoDer_ws/install/ld08_driver:/home/ubuntu/KoDer_ws/install/koder_description:/home/ubuntu/KoDer_ws/install/micro_ros_setup:/home/ubuntu/KoDer_ws/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[10.237148] (-) TimerEvent: {}
+[10.338458] (-) TimerEvent: {}
+[10.439814] (-) TimerEvent: {}
+[10.542839] (-) TimerEvent: {}
+[10.644186] (-) TimerEvent: {}
+[10.745481] (-) TimerEvent: {}
+[10.846990] (-) TimerEvent: {}
+[10.948305] (-) TimerEvent: {}
+[11.049485] (-) TimerEvent: {}
+[11.152042] (-) TimerEvent: {}
+[11.254414] (-) TimerEvent: {}
+[11.355730] (-) TimerEvent: {}
+[11.457042] (-) TimerEvent: {}
+[11.558276] (-) TimerEvent: {}
+[11.659472] (-) TimerEvent: {}
+[11.760700] (-) TimerEvent: {}
+[11.862026] (-) TimerEvent: {}
+[11.963470] (-) TimerEvent: {}
+[12.066493] (-) TimerEvent: {}
+[12.167743] (-) TimerEvent: {}
+[12.269001] (-) TimerEvent: {}
+[12.370255] (-) TimerEvent: {}
+[12.470945] (-) TimerEvent: {}
+[12.572256] (-) TimerEvent: {}
+[12.673479] (-) TimerEvent: {}
+[12.774705] (-) TimerEvent: {}
+[12.875953] (-) TimerEvent: {}
+[12.977275] (-) TimerEvent: {}
+[13.078544] (-) TimerEvent: {}
+[13.179869] (-) TimerEvent: {}
+[13.281191] (-) TimerEvent: {}
+[13.382339] (-) TimerEvent: {}
+[13.386450] (koder_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[13.482651] (-) TimerEvent: {}
+[13.584147] (-) TimerEvent: {}
+[13.630048] (koder_bringup) StdoutLine: {'line': b'writing ../../build/koder_bringup/koder_bringup.egg-info/PKG-INFO\n'}
+[13.632604] (koder_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/koder_bringup/koder_bringup.egg-info/dependency_links.txt\n'}
+[13.638301] (koder_bringup) StdoutLine: {'line': b'writing requirements to ../../build/koder_bringup/koder_bringup.egg-info/requires.txt\n'}
+[13.641716] (koder_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/koder_bringup/koder_bringup.egg-info/top_level.txt\n'}
+[13.684317] (-) TimerEvent: {}
+[13.785605] (-) TimerEvent: {}
+[13.888385] (-) TimerEvent: {}
+[13.992318] (-) TimerEvent: {}
+[14.093563] (-) TimerEvent: {}
+[14.175031] (koder_bringup) StdoutLine: {'line': b"reading manifest file '../../build/koder_bringup/koder_bringup.egg-info/SOURCES.txt'\n"}
+[14.187169] (koder_bringup) StdoutLine: {'line': b"writing manifest file '../../build/koder_bringup/koder_bringup.egg-info/SOURCES.txt'\n"}
+[14.188894] (koder_bringup) StdoutLine: {'line': b'running build\n'}
+[14.190478] (koder_bringup) StdoutLine: {'line': b'running build_py\n'}
+[14.192352] (koder_bringup) StdoutLine: {'line': b'running install\n'}
+[14.193638] (-) TimerEvent: {}
+[14.263407] (koder_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[14.293916] (-) TimerEvent: {}
+[14.395276] (-) TimerEvent: {}
+[14.496548] (-) TimerEvent: {}
+[14.518994] (koder_bringup) StdoutLine: {'line': b'running install_data\n'}
+[14.520809] (koder_bringup) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup\n'}
+[14.526906] (koder_bringup) StdoutLine: {'line': b'copying launch/nav2_bringup.launch.py -> /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/launch\n'}
+[14.531231] (koder_bringup) StdoutLine: {'line': b'copying config/koder_nav2.yaml -> /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/config\n'}
+[14.533983] (koder_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.596801] (-) TimerEvent: {}
+[14.698043] (-) TimerEvent: {}
+[14.794886] (koder_bringup) StdoutLine: {'line': b"removing '/home/ubuntu/KoDer_ws/install/koder_bringup/lib/python3.12/site-packages/koder_bringup-0.0.1-py3.12.egg-info' (and everything under it)\n"}
+[14.798279] (-) TimerEvent: {}
+[14.799611] (koder_bringup) StdoutLine: {'line': b'Copying ../../build/koder_bringup/koder_bringup.egg-info to /home/ubuntu/KoDer_ws/install/koder_bringup/lib/python3.12/site-packages/koder_bringup-0.0.1-py3.12.egg-info\n'}
+[14.816833] (koder_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[14.898441] (-) TimerEvent: {}
+[14.999272] (-) TimerEvent: {}
+[15.100573] (-) TimerEvent: {}
+[15.201784] (-) TimerEvent: {}
+[15.303253] (-) TimerEvent: {}
+[15.404477] (-) TimerEvent: {}
+[15.505713] (-) TimerEvent: {}
+[15.606917] (-) TimerEvent: {}
+[15.710334] (-) TimerEvent: {}
+[15.811666] (-) TimerEvent: {}
+[15.912936] (-) TimerEvent: {}
+[16.014383] (-) TimerEvent: {}
+[16.115765] (-) TimerEvent: {}
+[16.217130] (-) TimerEvent: {}
+[16.318339] (-) TimerEvent: {}
+[16.419806] (-) TimerEvent: {}
+[16.428897] (koder_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/KoDer_ws/build/koder_bringup/install.log'\n"}
+[16.520342] (-) TimerEvent: {}
+[16.621997] (-) TimerEvent: {}
+[16.700815] (koder_bringup) CommandEnded: {'returncode': 0}
+[16.722361] (-) TimerEvent: {}
+[16.824392] (-) TimerEvent: {}
+[16.881897] (koder_bringup) JobEnded: {'identifier': 'koder_bringup', 'rc': 0}
+[16.898892] (-) EventReactorShutdown: {}

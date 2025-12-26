@@ -1,0 +1,29 @@
+[8.338s] Invoking command in '/home/ubuntu/KoDer_ws/build/koder_bringup': CMAKE_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_agent:/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/home/ubuntu/KoDer_ws/install/ld08_driver:/home/ubuntu/KoDer_ws/install/koder_description:/home/ubuntu/KoDer_ws/install/micro_ros_setup:/home/ubuntu/KoDer_ws/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor PYTHONPATH=/home/ubuntu/KoDer_ws/build/koder_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/KoDer_ws/install/koder_bringup/lib/python3.12/site-packages:/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/ubuntu/KoDer_ws/install/koder_bringup/lib/python3.12/site-packages:/home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/KoDer_ws/build/koder_bringup/build --no-deps symlink_data
+[10.889s] running develop
+[13.351s] running egg_info
+[13.352s] creating koder_bringup.egg-info
+[13.424s] writing koder_bringup.egg-info/PKG-INFO
+[13.426s] writing dependency_links to koder_bringup.egg-info/dependency_links.txt
+[13.427s] writing requirements to koder_bringup.egg-info/requires.txt
+[13.428s] writing top-level names to koder_bringup.egg-info/top_level.txt
+[13.428s] writing manifest file 'koder_bringup.egg-info/SOURCES.txt'
+[13.760s] reading manifest file 'koder_bringup.egg-info/SOURCES.txt'
+[13.767s] writing manifest file 'koder_bringup.egg-info/SOURCES.txt'
+[14.017s] running build_ext
+[14.019s] Creating /home/ubuntu/KoDer_ws/install/koder_bringup/lib/python3.12/site-packages/koder-bringup.egg-link (link to .)
+[14.024s] 
+[14.027s] Installed /home/ubuntu/KoDer_ws/build/koder_bringup
+[14.029s] running symlink_data
+[14.031s] creating /home/ubuntu/KoDer_ws/install/koder_bringup/share/ament_index
+[14.033s] creating /home/ubuntu/KoDer_ws/install/koder_bringup/share/ament_index/resource_index
+[14.034s] creating /home/ubuntu/KoDer_ws/install/koder_bringup/share/ament_index/resource_index/packages
+[14.036s] symbolically linking /home/ubuntu/KoDer_ws/build/koder_bringup/resource/koder_bringup -> /home/ubuntu/KoDer_ws/install/koder_bringup/share/ament_index/resource_index/packages
+[14.038s] symbolically linking /home/ubuntu/KoDer_ws/build/koder_bringup/package.xml -> /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup
+[14.040s] creating /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/launch
+[14.042s] symbolically linking /home/ubuntu/KoDer_ws/build/koder_bringup/launch/bringup.launch.py -> /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/launch
+[14.045s] symbolically linking /home/ubuntu/KoDer_ws/build/koder_bringup/launch/online_async_slam.launch.py -> /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/launch
+[14.047s] creating /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/config
+[14.049s] symbolically linking /home/ubuntu/KoDer_ws/build/koder_bringup/config/scan_filter.yaml -> /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/config
+[14.051s] symbolically linking /home/ubuntu/KoDer_ws/build/koder_bringup/config/slam_params.yaml -> /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/config
+[14.053s] symbolically linking /home/ubuntu/KoDer_ws/build/koder_bringup/config/ekf.yaml -> /home/ubuntu/KoDer_ws/install/koder_bringup/share/koder_bringup/config
+[14.340s] Invoked command in '/home/ubuntu/KoDer_ws/build/koder_bringup' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/KoDer_ws/install/micro_ros_agent:/home/ubuntu/KoDer_ws/install/micro_ros_msgs:/home/ubuntu/KoDer_ws/install/ld08_driver:/home/ubuntu/KoDer_ws/install/koder_description:/home/ubuntu/KoDer_ws/install/micro_ros_setup:/home/ubuntu/KoDer_ws/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor PYTHONPATH=/home/ubuntu/KoDer_ws/build/koder_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/KoDer_ws/install/koder_bringup/lib/python3.12/site-packages:/home/ubuntu/KoDer_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/ubuntu/KoDer_ws/install/koder_bringup/lib/python3.12/site-packages:/home/ubuntu/KoDer_ws/install/drive_base_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/KoDer_ws/build/koder_bringup/build --no-deps symlink_data

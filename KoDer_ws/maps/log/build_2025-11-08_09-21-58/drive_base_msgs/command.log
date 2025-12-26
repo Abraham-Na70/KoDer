@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/KoDer_ws/build/drive_base_msgs': /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/drive_base_msgs -- -j4 -l4
+Invoked command in '/home/ubuntu/KoDer_ws/build/drive_base_msgs' returned '0': /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/drive_base_msgs -- -j4 -l4
+Invoking command in '/home/ubuntu/KoDer_ws/build/drive_base_msgs': /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/drive_base_msgs
+Invoked command in '/home/ubuntu/KoDer_ws/build/drive_base_msgs' returned '0': /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/drive_base_msgs

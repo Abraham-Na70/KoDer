@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/KoDer_ws/build/ld08_driver': /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/ld08_driver -- -j4 -l4
+Invoked command in '/home/ubuntu/KoDer_ws/build/ld08_driver' returned '0': /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/ld08_driver -- -j4 -l4
+Invoking command in '/home/ubuntu/KoDer_ws/build/ld08_driver': /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/ld08_driver
+Invoked command in '/home/ubuntu/KoDer_ws/build/ld08_driver' returned '0': /usr/bin/cmake --install /home/ubuntu/KoDer_ws/build/ld08_driver

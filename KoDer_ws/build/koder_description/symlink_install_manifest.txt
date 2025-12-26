@@ -1,0 +1,16 @@
+/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/urdf/koder.urdf
+/home/ubuntu/KoDer_ws/install/koder_description/share/ament_index/resource_index/package_run_dependencies/koder_description
+/home/ubuntu/KoDer_ws/install/koder_description/share/ament_index/resource_index/parent_prefix_path/koder_description
+/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/environment/ament_prefix_path.sh
+/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/environment/ament_prefix_path.dsv
+/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/environment/path.sh
+/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/environment/path.dsv
+/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/local_setup.bash
+/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/local_setup.sh
+/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/local_setup.zsh
+/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/local_setup.dsv
+/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/package.dsv
+/home/ubuntu/KoDer_ws/install/koder_description/share/ament_index/resource_index/packages/koder_description
+/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/cmake/koder_descriptionConfig.cmake
+/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/cmake/koder_descriptionConfig-version.cmake
+/home/ubuntu/KoDer_ws/install/koder_description/share/koder_description/package.xml

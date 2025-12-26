@@ -1,0 +1,7 @@
+[0.386s] Invoking command in '/home/ubuntu/KoDer_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/KoDer_ws/install/koder_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/KoDer_ws/build/micro_ros_msgs -- -j4 -l4
+[2.468s] gmake[2]: *** wait: No child processes.  Stop.
+[2.477s] gmake[2]: *** Waiting for unfinished jobs....
+[2.484s] gmake[2]: *** wait: No child processes.  Stop.
+[2.486s] gmake[1]: *** [CMakeFiles/Makefile2:452: CMakeFiles/ament_cmake_python_symlink_micro_ros_msgs.dir/all] Error 2
+[2.488s] gmake[1]: *** [CMakeFiles/Makefile2:216: CMakeFiles/micro_ros_msgs__rosidl_generator_type_description.dir/all] Interrupt
+[2.508s] gmake: *** [Makefile:146: all] Interrupt

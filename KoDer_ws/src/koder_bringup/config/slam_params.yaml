@@ -1,0 +1,28 @@
+slam_toolbox:
+  ros__parameters:
+    solver_plugin: solver_plugins::CeresSolver
+    ceres_linear_solver: SPARSE_NORMAL_CHOLESKY
+    ceres_preconditioner: SCHUR_JACOBI
+    ceres_trust_strategy: LEVENBERG_MARQUARDT
+    ceres_dogleg_type: TRADITIONAL_DOGLEG
+    ceres_loss_function: HUBER
+
+    message_filter_queue_size: 100
+
+    # ROS Parameters
+    odom_frame: odom
+    map_frame: map
+    base_frame: base_link
+    scan_topic: /scan
+    odom_topic: /odometry/filtered 
+
+    mode: mapping
+    use_sim_time: false
+    transform_timeout: 2.0
+
+    # Map update parameters
+    map_update_interval: 5.0
+    resolution: 0.05
+    max_laser_range: 8.0
+
+    use_scan_matching: true

@@ -1,0 +1,5 @@
+gmake[2]: *** [CMakeFiles/drive_base_msgs__rosidl_generator_type_description.dir/build.make:109: CMakeFiles/drive_base_msgs__rosidl_generator_type_description.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:214: CMakeFiles/drive_base_msgs__rosidl_generator_type_description.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_drive_base_msgs.dir/build.make:85: CMakeFiles/ament_cmake_python_symlink_drive_base_msgs.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:451: CMakeFiles/ament_cmake_python_symlink_drive_base_msgs.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

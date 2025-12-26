@@ -1,0 +1,2 @@
+[console_scripts]
+publish_map_odom_tf.py = koder_bringup.publish_map_odom_tf:main

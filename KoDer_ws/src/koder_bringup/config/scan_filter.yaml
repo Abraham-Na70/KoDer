@@ -1,0 +1,16 @@
+scan_to_scan_filter_chain:
+  ros__parameters:
+    qos_overrides:
+      /scan_raw:
+        reliability: best_effort
+      /scan:
+        reliability: best_effort
+    filter1:
+      name: range
+      type: laser_filters/LaserScanRangeFilter
+      params:
+        use_message_range_limits: false
+        lower_threshold: 0.05
+        upper_threshold: 12.0
+        lower_replacement_value: -.inf
+        upper_replacement_value: .inf
