@@ -8,19 +8,13 @@
 
 > **KoDer (Keranjang Otonom Dengan Estimasi Rute)** is an autonomous differential-drive mobile robot built on a distributed compute architecture. It demonstrates deterministic low-level actuator control on a bare-metal microcontroller linked natively via **micro-ROS** to a high-level compute SBC running **ROS 2 Jazzy Jalisco**, **SLAM**, and the **Nav2** autonomous navigation stack.
 
-<p align="center">
-  <a href="https://youtu.be/Vn7qHD_Dkvs" target="_blank">
-    <img src="https://img.youtube.com/vi/Vn7qHD_Dkvs/maxresdefault.jpg" width="80%" alt="Watch KoDer Autonomous Navigation Demo" />
-  </a>
-  <br>
-  <em><b>Video Demo:</b> <a href="https://youtu.be/Vn7qHD_Dkvs">Watch KoDer Autonomous SLAM, micro-ROS Bringup & Nav2 Obstacle Avoidance</a> (YouTube).</em>
-</p>
+[![Watch KoDer Autonomous Navigation Demo](https://img.youtube.com/vi/Vn7qHD_Dkvs/maxresdefault.jpg)](https://youtu.be/Vn7qHD_Dkvs)  
+*Video Demo: [Watch KoDer Autonomous SLAM, micro-ROS Bringup & Nav2 Obstacle Avoidance (YouTube)](https://youtu.be/Vn7qHD_Dkvs)*
 
-<p align="center">
-  <img src="docs/images/koder_img-009.png" width="60%" alt="KoDer Autonomous Mobile Robot Hardware Prototype" />
-  <br>
-  <em><b>Figure 1:</b> KoDer autonomous mobile platform featuring forward-mounted 2D RPLiDAR, internal 3S LiPo battery containment, and differential drive base.</em>
-</p>
+---
+
+![KoDer Autonomous Mobile Robot Hardware Prototype](./docs/images/koder_img-009.png)  
+*Figure 1: KoDer autonomous mobile platform featuring forward-mounted 2D RPLiDAR, internal 3S LiPo battery containment, and differential drive base.*
 
 ---
 
@@ -28,30 +22,27 @@
 
 Traditional low-cost robotics systems often rely on brittle, non-standard serial string parsers between microcontrollers and host computers. KoDer addresses this by adopting a **Hardware Abstraction Layer (HAL)** powered by **micro-ROS on an ESP32**, allowing the microcontroller to live as a first-class citizen inside the ROS 2 DDS computational graph.
 
-<p align="center">
-  <img src="docs/images/koder_img-002.png" width="80%" alt="KoDer Hardware Architecture Diagram" />
-  <br>
-  <em><b>Figure 2:</b> Distributed hardware topology linking Raspberry Pi 4 host compute with the ESP32 real-time motor controller.</em>
-</p>
+![KoDer Hardware Architecture Diagram](./docs/images/koder_img-002.png)  
+*Figure 2: Distributed hardware topology linking Raspberry Pi 4 host compute with the ESP32 real-time motor controller.*
 
 ```mermaid
 flowchart TD
-    subgraph Sensing & Actuation Layer
+    subgraph G_SENS ["Sensing and Actuation Layer"]
         LIDAR["2D RPLiDAR (LD08)<br>(Serial 230400 baud)"] --> RPI
         MOTORS["DC Gearmotors + Encoders"] <--> ESP["ESP32 Microcontroller<br>(micro-ROS Client)"]
         IMU["MPU-6050 6-DOF IMU"] --> ESP
     end
 
-    subgraph High-Level Host Compute (Raspberry Pi 4 - Ubuntu 24.04 / ROS 2 Jazzy)
+    subgraph G_HOST ["High-Level Host Compute (Raspberry Pi 4 / ROS 2 Jazzy)"]
         UROS["micro-ROS Agent Node<br>(/dev/ttyUSB0 @ 115200)"] <--> ESP
         RPI["ROS 2 Jazzy Execution Graph"]
-        UROS -- /odom, /imu/data_raw --> EKF["Robot Localization Node<br>(Extended Kalman Filter)"]
-        LIDAR -- /scan --> SLAM["SLAM Toolbox / Cartographer<br>(Occupancy Grid Mapping)"]
-        EKF -- /odometry/filtered --> NAV2["Nav2 Stack<br>(Global/Local Costmap, Smac, DWB)"]
-        NAV2 -- /cmd_vel --> UROS
+        UROS -->|"/odom, /imu/data_raw"| EKF["Robot Localization Node<br>(Extended Kalman Filter)"]
+        LIDAR -->|"/scan"| SLAM["SLAM Toolbox / Cartographer<br>(Occupancy Grid Mapping)"]
+        EKF -->|"/odometry/filtered"| NAV2["Nav2 Stack<br>(Global/Local Costmap, Smac, DWB)"]
+        NAV2 -->|"/cmd_vel"| UROS
     end
 
-    subgraph User Interaction & Telemetry
+    subgraph G_TELEM ["User Interaction and Telemetry"]
         BRIDGE["rosbridge_server<br>(WebSocket Port 9090)"] <--> RPI
         UI["Electron / Web Control Station<br>(Waypoints, Teleoperation, Status)"] <--> BRIDGE
     end
@@ -61,11 +52,8 @@ flowchart TD
 
 ## 2. Hardware Stack & Power Distribution
 
-<p align="center">
-  <img src="docs/images/koder_img-008.png" width="75%" alt="KoDer Underside Differential Chassis" />
-  <br>
-  <em><b>Figure 3:</b> Underside chassis assembly showing dual high-torque DC gearmotors, passive casters, and isolated power distribution routing.</em>
-</p>
+![KoDer Underside Differential Chassis](./docs/images/koder_img-008.png)  
+*Figure 3: Underside chassis assembly showing dual high-torque DC gearmotors, passive casters, and isolated power distribution routing.*
 
 | Subsystem | Hardware Component | Role & Specifications |
 | :--- | :--- | :--- |
@@ -75,11 +63,8 @@ flowchart TD
 | **Inertial & Odom** | MPU-6050 + Optical Encoders | 6-DOF angular rate & acceleration combined with wheel tick interrupts. |
 | **Power Management** | 3S LiPo (11.1V - 12.6V) | Split rail: 12V high-power motor drivers, dual isolated 5.1V buck converters for RPi & ESP32. |
 
-<p align="center">
-  <img src="docs/images/koder_img-007.png" width="60%" alt="KoDer Embedded Prototype Breadboard" />
-  <br>
-  <em><b>Figure 4:</b> Prototype power regulation circuit with dual buck converters, motor drivers, and ESP32 pinout breakouts.</em>
-</p>
+![KoDer Embedded Prototype Breadboard](./docs/images/koder_img-007.png)  
+*Figure 4: Prototype power regulation circuit with dual buck converters, motor drivers, and ESP32 pinout breakouts.*
 
 ---
 
@@ -87,11 +72,8 @@ flowchart TD
 
 KoDer includes an integrated Web GUI built with React communicating over WebSockets via `rosbridge_server`. Operators can visualize metric maps, set dynamic goal coordinates, and monitor odometry telemetries in real-time.
 
-<p align="center">
-  <img src="docs/images/koder_img-017.png" width="85%" alt="KoDer Web Navigation Interface" />
-  <br>
-  <em><b>Figure 5:</b> Real-time mapping and autonomous path navigation dashboard running inside ITS Tower 2 (Floor 9).</em>
-</p>
+![KoDer Web Navigation Interface](./docs/images/koder_img-017.png)  
+*Figure 5: Real-time mapping and autonomous path navigation dashboard running inside ITS Tower 2 (Floor 9).*
 
 ### Key Technical Implementations:
 1. **micro-ROS Direct DDS Integration:**
